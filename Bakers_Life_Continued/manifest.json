@@ -1,0 +1,22 @@
+{
+    "Name": "Baker's Life Continued",
+    "Author": "Shads42",
+    "Descripition": "A rewrite of A Baker's Life by Ritsunesan to work with Cornucopia and Content Patcher",
+    "Version": "0.0.1",
+    "MinimumApiVersion": "4.0.0",
+    "UniqueID": "Shads42.BakersLifeContinued",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "Cornucopia.MoreCrops",
+            "MinimumVersion": "1.5.1",
+            "IsRequired": true
+        },
+        
+        /*  add in starbrew valley continued for the few recipies requiring booze  */
+    ]
+
+}

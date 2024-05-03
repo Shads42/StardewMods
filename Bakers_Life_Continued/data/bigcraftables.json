@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add machines to Big Craftables",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "BakersLifeContinued_BakersMixer": {
+                    "Name": "Baker's Mixer",
+                    "DisplayName": "{{i18n:BakersMixer_name}}",
+                    "Descripition": "{{i18n:BakersMixer_description}}",
+                    "Texture": "Shads42.BakersLifeContinued/BigCraftables",
+                    "SpriteIndex": 0
+                },
+                "BakersLifeContinued_BakersOven": {
+                    "Name": "Baker's Oven",
+                    "DisplayName": "{{i18n:BakersOven_name}}",
+                    "Descripition": "{{i18n:BakersOven_description}}",
+                    "Texture": "Shads42.BakersLifeContinued/BigCraftables",
+                    "SpriteIndex": 2
+                }
+            }
+        }
+    ]
+}
