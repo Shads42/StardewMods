@@ -1,0 +1,16 @@
+{
+    "Format": "2.0.0",
+    "Changes":[
+        {
+            "LogName": "Load spritesheets",
+            "Action": "Load",
+            "Target": "Shads42.BakersLifeContinued/machines",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Data",
+            "Action": "Include",
+            "FromFile": "data/bigcraftables.json"
+        }
+    ]
+}
