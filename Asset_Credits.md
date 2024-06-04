@@ -1,6 +1,7 @@
 This document lists known authors for all image assets within this particular Stardew Mod repo. Image assets are broken down by mod pack 
 
-##Permission for Reuse 
+## Permission for Reuse 
+
 | Author                           | Usage Restrictions                                       |  
 |:--------------------------------:|:--------------------------------------------------------:|
 | unknown                          | Cannot be used                                           |
@@ -9,3 +10,14 @@ This document lists known authors for all image assets within this particular St
 |Shads42| These can be used in free Stardew mods with credit. The mods cannot earn donation points. |
 |Ritsunesan | These can only be used in free Stardew mods. The mods cannot earn donation points. For more information please check the [original Baker's Life](https://www.nexusmods.com/stardewvalley/mods/5213) page on NexusMods. Credit must be provided to Ritsunesan as the original creator |
 
+
+
+
+
+## Baker's Life Continued 
+A continuation of Ritsunesan's mod Baker's Life for Stardew Valley 1.6
+
+|In-game Object | Asset file | Author | 
+|:--------------|:-----------|:-------|
+|Baker's Oven   | machines.png | Ritsunesan | 
+|Baker's Mixer | machines.png | Ritsunesan |
