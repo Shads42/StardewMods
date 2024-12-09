@@ -1,0 +1,47 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Enable Wildflour Machine Items": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Descripition": "Allows alternative recipes that use wildflour crops and forage in machines."
+        }
+    },
+    "Changes":[
+        {
+            "LogName": "Load spritesheets",
+            "Action": "Load",
+            "Target": "Shads42.BakersLifeContinued/machines, Shads42.BakersLifeContinued/Objects",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Data",
+            "Action": "Include",
+            "FromFile": "data/objectcontexttags.json, data/bigcraftables.json, data/objects.json, data/shops.json, data/recipes.json, machines/mixer.json, machines/oven.json, data/gifttaste.json"
+        },
+        {
+            "LogName": "Load SVE files",
+            "Action": "Include",
+            "FromFile": "data/svegifttaste.json, data/svecontexttags.json",
+            "When": {
+                "HasMod | contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        {
+            "LogName": "Load RSV gift tastes",
+            "Action": "Include",
+            "FromFile": "data/rsvgifttaste.json",
+            "When": {
+                "HasMod | contains=Rafseazz.RSVCP": true
+            }
+        },
+        {
+            "LogName": "Load Wildflour Recipes",
+            "Action": "Include",
+            "FromFile": "wildflour-machines/oven.json, wildflour-machines/mixer.json",
+            "When": {
+                "Enable Wildflour Machine Items": true
+            }
+        }
+    ]
+} 

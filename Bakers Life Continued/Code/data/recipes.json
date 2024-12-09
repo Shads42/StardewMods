@@ -1,0 +1,18 @@
+{
+
+    "Changes":
+    [
+        {
+            "LogName": "Load Missing Cooking Recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "BakersLifeContinued_CreamCheese": "184 1/9999 9999/BakersLifeContinued_CreamCheese/null/",
+                "BakersLifeContinued_GrahamCrackers": "246 1 245 1 340 1/9999 9999/BakersLifeContinued_GrahamCrackers/null/",
+                "BakersLifeContinued_Caramel": "245 1 184 1/9999 9999/BakersLifeContinued_Caramel/null/",
+                "BakersLifeContinued_BrownSugar": "245 1 (O)Cornucopia_Molasses/9999 9999/BakersLifeContinued_BrownSugar/null/",
+                "BakersLifeContinued_Chocolate": "(O)Cornucopia_CocoaPod 1 245 1 -6 1/9999 9999/BakersLifeContinued_Chocolate/null/"
+            }
+        }
+    ]
+}

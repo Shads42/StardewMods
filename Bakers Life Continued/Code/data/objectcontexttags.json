@@ -1,0 +1,12 @@
+{
+	"Changes": [	
+		{
+		   "Action": "EditData",
+		   "Target": "Data/Objects",
+		   "TargetField": ["Cornucopia_Butter", "ContextTags"],			//cornucopia butter
+		   "Entries": {
+				  "#-1": "butter"
+		   }
+		}
+    ]
+}

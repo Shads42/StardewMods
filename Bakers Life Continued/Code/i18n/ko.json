@@ -1,0 +1,671 @@
+{
+     // temp objects (will be replaced once cornucopia recipes comes out)
+     "CreamCheese_Name": "크림치즈",
+	"CreamCheese_Description": "많은 디저트에서 중요한 역할을 하는 신선하고 풍부한 크림치즈입니다.",
+	"GrahamCrackers_Name": "그라함 크래커",
+	"GrahamCrackers_Description": "약간의 꿀 맛이 나는 황금빛 갈색 크래커. 파이 크러스트를 만드는 데 적합합니다.",
+	"Caramel_Name": "카라멜",
+	"Caramel_Description": "설탕을 졸여서 만든 달고 끈적한 사탕. 원형 모양의 카라멜입니다.",
+	"BrownSugar_Name": "갈색 설탕",
+	"BrownSugar_Description": "모래설탕에 당밀이 일부 남아있는 정제된 설탕. 쿠키의 주요 재료로 자주 사용됩니다.",
+	"Chocolate_Name": "초콜릿",
+	"Chocolate_Description": "카카오 콩을 바 형태로 가공한 초콜릿. 이 초콜릿은 쓴맛이 있어 베이킹에 적합합니다.",
+    // mixer objects
+    "CakeBatter_Name": "케이크 반죽",
+	"CakeBatter_Description": "많은 케이크 레시피의 기본이 되는 바닐라 반죽. 생으로 먹지 않는 것이 좋습니다...",
+	"CakeBatter_Missing": "밀가루 2개와 버터 1개가 필요합니다.",
+	"CookieDough_Name": "쿠키 반죽",
+	"CookieDough_Description": "많은 쿠키 레시피의 기본이 되는 바닐라 쿠키 반죽. 생으로 먹지 않는 것이 좋습니다...",
+	"CookieDough_Missing": "밀가루 1개와 소금 1개가 필요합니다.",
+	"ChocolateCakeBatter_Name": "초콜릿 케이크 반죽",
+	"ChocolateCakeBatter_Description": "코코아로 맛을 낸 케이크 반죽. 생으로 먹지 않는 것이 좋습니다...",
+	"ChocolateCakeBatter_Missing": "밀가루 2개와 기름 1개가 필요합니다.",
+	"ChocolateCookieDough_Name": "초콜릿 쿠키 반죽",
+	"ChocolateCookieDough_Description": "코코아로 맛을 낸 쿠키 반죽. 생으로 먹지 않는 것이 좋습니다...",
+	"ChocolateCookieDough_Missing": "밀가루 1개와 코코아 콩 1개가 필요합니다.",
+	"BreadDough_Name": "빵 반죽",
+	"BreadDough_Description": "많은 빵 레시피의 기본이 되는 간단한 반죽. 생으로 먹지 않는 것이 좋습니다...",
+	"BreadDough_Missing": "밀가루 1개가 필요합니다.",
+	"PieCrust_Name": "파이 크러스트",
+	"PieCrust_Description": "맛있고 부드러운 파이를 만들기 위한 표준 파이 크러스트입니다.",
+	"PieCrust_Missing": "밀가루 1개와 소금 1개가 필요합니다.",
+	"GrahamCrust_Name": "그라함 크래커 크러스트",
+	"GrahamCrust_Description": "부셔서 만든 그라함 크래커로 만든 파이 크러스트. 달콤하고 버터리한 맛이 납니다.",
+	"GrahamCrust_Missing": "소금 1개와 버터 1개가 필요합니다.",
+	"PowderedSugar_Name": "파우더 슈가",
+	"PowderedSugar_Description": "결정 설탕을 섞어 만든 부드럽고 달콤한 가루입니다.",
+    // og artisan good objects
+    "BlueberryMousseCake_Name": "블루베리 아몬드 무스 케이크",
+	"BlueberryMousseCake_Description": "크리미한 무스 속과 바삭한 크러스트로 구성된 상큼한 케이크. 블루베리 젤리로 장식되었습니다.",
+	"BlueberryMousseCake_Missing": "그라함 크래커 크러스트 1개, 메이플 시럽 1개, 블루베리 10개가 필요합니다.",
+	"DragonfruitCake_Name": "용과 레이어 케이크",
+	"DragonfruitCake_Description": "세 층으로 이루어진 케이크로, 과일 맛의 스펀지 층 사이에 분홍색 무스 속이 들어 있습니다. 용과 젤리로 장식됩니다.",
+	"DragonfruitCake_Missing": "케이크 반죽 1개, 라즈베리 1개, 용과 1개가 필요합니다.",
+	"GaudyWeddingCake_Name": "화려한 웨딩 케이크",
+	"GaudyWeddingCake_Description": "리본, 체크무늬, 다채로운 색상으로 장식된 두 가지 색의 층이 있는 웨딩 케이크.",
+	"GaudyWeddingCake_Missing": "케이크 반죽 1개, 초콜릿 케이크 반죽 1개, 초콜릿 1개, 비트 1개가 필요합니다.",
+	"MangoTart_Name": "망고 타르트",
+	"MangoTart_Description": "망고로 만든 간단한 디저트. 크리미하고 달콤합니다.",
+	"MangoTart_Missing": "파이 크러스트 1개, 크림치즈 1개, 오렌지 제스트 1개, 망고 2개가 필요합니다.",
+	"MatchaRollCake_Name": "말차 롤 케이크",
+	"MatchaRollCake_Description": "말차 가루로 만든 부드러운 롤 케이크, 세미-스위트 팥 whipped cream으로 채워져 있습니다.",
+	"MatchaRollCkae_Missing": "케이크 반죽 1개, 파우더 슈가 1개, 차잎 1세트, 큰 달걀 4개가 필요합니다.",
+	"SugarFrostedSlime_Name": "설탕으로 코팅된 슬라임",
+	"SugarFrostedSlime_Description": "슬라임 위에 파우더 슈가와 꽃을 올려 만든 희귀하고 신비한 별미. 고위층에게 적합한 선물입니다.",
+	"SugarFrostedSlime_Missing": "파우더 슈가 1개, 프리즘 조각 1개, 허니서클 3개가 필요합니다.",
+    // og alcohol objects
+    "BourbonBrownies_Name": "버번 크림치즈 브라우니",
+	"BourbonBrownies_Description": "버번 크림치즈 소용돌이가 들어간 진하고 쫄깃한 브라우니.",
+	"BourbonBrownies_Missing": "초콜릿 케이크 반죽 1개, 크림치즈 1개, 파우더 슈가 1개가 필요합니다.",
+	
+	"CoffeeLiqueurCake_Name": "커피 리큐르 케이크",
+	"CoffeeLiqueurCake_Description": "커피 리큐르로 만든 달콤한 휘핑크림이 덮인 촉촉한 초콜릿 케이크.",
+	"CoffeeLiqueurCake_Missing": "초콜릿 케이크 반죽 1개, 커피 1개, 바닐라 1개, 파우더 슈가 5개가 필요합니다.",
+	
+	"MargaritaCake_Name": "마르가리타 트레스 레체스 케이크",
+	"MargaritaCake_Description": "마르가리타 맛이 나는 진한 케이크로, 세 가지 종류의 우유에 담가 놓았습니다.",
+	"MargaritaCake_Missing": "케이크 반죽 1개, 라임 1개, 바닐라 1개, 대형 우유 3개가 필요합니다.",
+	
+    "IrishCheesecake_Name": "아이리시 크림 치즈케이크",
+	"IrishCheesecake_Description": "위스키로 만든 부드러운 치즈케이크 위에 계피가 뿌려진 디저트.",
+    "IrishCheesecake_MissingTemp": "그라함 크래커 크러스트 1개, 크림치즈 1개, 계피 스틱 1개, 페일 에일 1개, 대형 우유 1개가 필요합니다.", // change when Irish Coffee gets added
+    "IrishCheesecake_Missing": "그라함 크래커 크러스트 1개, 크림치즈 1개, 계피 스틱 1개, 대형 우유 1개가 필요합니다.",
+	
+	"PinaColadaPie_Name": "피나 콜라다 파이",
+	"PinaColadaPie_Description": "피나 콜라다의 열대 맛을 강조한 크리미하고 고소한 파이.",
+	"PinaColadaPie_Missing": "그라함 크래커 크러스트 1개, 크림치즈 1개, 파인애플 1개, 코코넛 2개, 체리 3개가 필요합니다.",
+	
+	"RumFruitcake_Name": "향신료 럼 과일 케이크",
+	"RumFruitcake_Description": "건조한 망고와 럼으로 맛을 낸 비전통적인 과일 케이크. 여전히 돌처럼 단단하지만...",
+	"RumFruitcake_MissingTemp": "케이크 반죽 1개, 다크 에일 1개, 망고 1개, 체리 2개, 호두 3개가 필요합니다.",
+	"RumFruitcake_Missing": "케이크 반죽 1개, 망고 1개, 체리 2개, 호두 3개가 필요합니다.",
+    // og recipes objects
+    "Baklava_Name": "바클라바 쿠키 바",
+	"Baklava_Description": "부드러운 쿠키 바 위에 견과류와 향신료를 얹고, 꿀-오렌지 시럽을 뿌린 디저트.",
+	"Baklava_Missing": "쿠키 반죽 1개, 피칸 1개, 아몬드 1개, 꿀 1개가 필요합니다.",
+	
+	"EarlGreyTart_Name": "얼그레이 블루베리 타르트",
+	"EarlGreyTart_Description": "블루베리와 얼그레이 차로 만든 크리미한 타르트. 드래곤푸르트와 먹을 수 있는 꽃으로 장식되었습니다.",
+	"EarlGreyTart_Missing": "파이 크러스트 1개, 드래곤푸르트 1개, 레몬 제스트 1개, 메이플 시럽 1개, 블루베리 5개가 필요합니다.",
+    // og vanilla cake objects
+    "AngelCake_Name": "엔젤 푸드 케이크",
+	"AngelCake_Description": "입 안에서 살살 녹는 가볍고 부드러운 케이크. 하늘처럼 맛있습니다!",
+	"AngelCake_Missing": "케이크 반죽 1개와 설탕 2개가 필요합니다.",
+	
+	"BirthdayCake_Name": "생일 케이크",
+	"BirthdayCake_Description": "무지개 색깔로 장식된 바닐라 레이어 케이크. 아마도 당신이 본 것 중에서 가장 밝은 케이크일 것입니다!",
+	"BirthdayCake_Missing": "케이크 반죽 1개, 양귀비 3개, 새순 고사리 3개, 야생 자두 3개가 필요합니다.",
+	
+	"BundtCake_Name": "번트 케이크",
+	"BundtCake_Description": "심플한 바닐라 번트 케이크, 간단함을 선호하는 사람들에게 완벽합니다.",
+	"BundtCake_Missing": "대형 달걀 4개와 바닐라 1개가 필요합니다.",
+	
+	"CarrotCake_Name": "당근 케이크",
+	"CarrotCake_Description": "크림치즈 프로스팅으로 덮인 레이어 케이크. 잘게 썬 피칸과 당근으로 장식되었습니다.",
+	"CarrotCake_Missing": "케이크 반죽 1개, 크림치즈 1개, 갈색 설탕 1개, 피칸 3개가 필요합니다.",
+	
+	"ConfettiRCake_Name": "컨페티 케이크 롤",
+	"ConfettiRCake_Description": "스폰지 케이크를 말아서 컨페티 휘핑크림으로 채운 케이크.",
+	"ConfettiRCake_Missing": "케이크 반죽 1개와 오리 달걀 3개가 필요합니다.",
+	
+	"LemonCoconutCake_Name": "레몬 코코넛 케이크",
+	"LemonCoconutCake_Description": "레몬 커드를 채운 레이어 케이크. 버터크림과 잘게 간 코코넛으로 덮여 있습니다.",
+	"LemonCoconutCake_Missing": "케이크 반죽 1개, 크림치즈 1개, 레몬 3개, 대형 달걀 5개가 필요합니다.",
+	
+	"OtherBirthdayCake_Name": "이세계의 생일 케이크",
+	"OtherBirthdayCake_Description": "매우 특별한 사람에게 주는 선물. 이 세상에서 별들은 항상 당신의 자리를 찾아낼 것입니다.",
+	"OtherBirthdayCake_Missing": "케이크 반죽 1개, 크림치즈 1개, 봄 장미 2개가 필요합니다.",
+	
+	"PineappleCake_Name": "파인애플 업사이드 다운 케이크",
+	"PineappleCake_Description": "파인애플 주스를 흡수한 촉촉한 케이크. 체리로 단맛을 더했습니다.",
+	"PineappleCake_Missing": "케이크 반죽 1개, 갈색 설탕 1개, 체리 8개가 필요합니다.",
+	
+	"PumpkinBundtCake_Name": "호박 번트 케이크",
+	"PumpkinBundtCake_Description": "호박 맛이 나는 번트 케이크, 메이플 글레이즈와 피칸으로 장식되었습니다.",
+	"PumpkinBundtCake_Missing": "케이크 믹스 1개, 메이플 시럽 1개, 피칸 2개가 필요합니다.",
+	
+	"RaspberryRCake_Name": "라즈베리 케이크 롤",
+	"RaspberryRCake_Description": "바닐라 맛의 가볍고 스폰지 같은 케이크로, 덩어리진 라즈베리 휘핑크림으로 채워져 있습니다.",
+	"RaspberryRCake_Missing": "케이크 반죽 1개, 바닐라 1개, 대형 우유 3개, 대형 달걀 6개가 필요합니다.",
+	
+	"SpongeCake_Name": "스폰지 케이크",
+	"SpongeCake_Description": "가볍고 푹신한 바닐라 케이크로, 딸기와 휘핑크림으로 장식되었습니다.",
+	"SpongeCake_Missing": "케이크 반죽 1개와 버터 1개가 필요합니다.",
+	
+	"StrawberryRCake_Name": "딸기 케이크 롤",
+	"StrawberryRCake_Description": "스폰지 케이크를 말아서 딸기 휘핑크림으로 채운 케이크.",
+	"StrawberryRCake_Missing": "케이크 반죽 1개와 딸기 1개가 필요합니다.",
+	
+	"UltimateBirthdayCake_Name": "궁극의 생일 케이크",
+	"UltimateBirthdayCake_Description": "세 층으로 이루어진 바닐라 케이크로, 무지개 색으로 꾸며졌습니다. 풍선은 별도로 판매됩니다.",
+	"UltimateBirthdayCake_Missing": "케이크 반죽 1개와 광부의 간식 1개가 필요합니다.",
+	
+	"UltimateWeddingCake_Name": "궁극의 웨딩 케이크",
+	"UltimateWeddingCake_Description": "모든 계절의 장미로 장식된 호화로운 웨딩 케이크. 거의 먹기 아까울 정도로 아름답습니다.",
+	"UltimateWeddingCake_Missing": "케이크 반죽 1개, 봄 장미 2개, 여름 장미 2개, 가을 장미 2개, 겨울 장미 2개가 필요합니다.",
+	
+	"WeddingCake_Name": "웨딩 케이크",
+	"WeddingCake_Description": "반짝이는 세 층의 웨딩 케이크. 보라색 제비꽃으로 장식되어 있습니다.",
+	"WeddingCake_Missing": "케이크 반죽 1개와 바닐라 1개가 필요합니다.",
+    // og chocolate cake batter objects
+    "ChocoBundtCake_Name": "초콜릿 번트 케이크",
+    "ChocoBundtCake_Description": "살몬베리로 장식된 맛있는 초콜릿 번트 케이크.",
+    "ChocoBundtCake_Missing": "초콜릿 케이크 반죽 1개와 대형 달걀 4개가 필요합니다.",
+    
+    "ChocoSpongeCake_Name": "초콜릿 스폰지 케이크",
+    "ChocoSpongeCake_Description": "가볍고 부드러운 초콜릿 케이크. 블랙베리, 라즈베리, 휘핑크림으로 장식되었습니다.",
+    "ChocoSpongeCake_Missing": "초콜릿 케이크 믹스 1개와 블랙베리 5개가 필요합니다.",
+    
+    "DevilsFoodCake_Name": "데빌스 푸드 케이크",
+    "DevilsFoodCake_Description": "초콜릿 대신 코코아 파우더로 만든 촉촉하고 풍부한 초콜릿 케이크.",
+    "DevilsFoodCake_Missing": "초콜릿 케이크 믹스 1개와 버터 1개가 필요합니다.",
+    
+    "MarbleBundtCake_Name": "마블 번트 케이크",
+    "MarbleBundtCake_Description": "두 가지 맛의 반죽으로 만든 진한 번트 케이크. 초콜릿 가나슈와 스프링클로 장식되었습니다.",
+    "MarbleBundtCake_Missing": "초콜릿 케이크 반죽 1개, 바닐라 케이크 반죽 1개, 초콜릿 1개가 필요합니다.",
+    
+    "RedVelvetRCake_Name": "레드벨벳 케이크 롤",
+    "RedVelvetRCake_Description": "진한 빨간색 케이크로, 크림치즈 프로스팅으로 채운 롤 케이크.",
+    "RedVelvetRCake_Missing": "초콜릿 케이크 반죽 1개, 크림치즈 1개, 코코아 콩 1개가 필요합니다.",
+    
+    "CaramelBrownies_Name": "솔티드 카라멜 브라우니",
+    "CaramelBrownies_Description": "달콤하고 짭짤한 카라멜 소스로 덮인 쫄깃하고 쌉싸름한 브라우니.",
+    "CaramelBrownies_Missing": "초콜릿 케이크 반죽 1개, 소금 1개, 대형 달걀 5개가 필요합니다.",
+    //og chocolate cookie dough objects
+    "ChocoCookies_Name": "초콜릿 쿠키",
+    "ChocoCookies_Description": "더블 초콜릿 쿠키, 초콜릿 조각이 들어있어 바닐라를 좋아하지 않는 사람들에게 완벽합니다.",
+    "ChocoCookies_Missing": "설탕 1개와 버터 1개가 필요합니다.",
+    // og cookie objects
+    "CheckerCookie_Name": "체커보드 쿠키",
+    "CheckerCookie_Description": "바닐라와 초콜릿으로 만든 쿠키. 체커보드 모양을 닮았습니다.",
+    "CheckerCookie_Missing": "쿠키 반죽 1개와 초콜릿 1개가 필요합니다.",
+    
+    "ChocoChipCookie_Name": "초콜릿 칩 쿠키",
+    "ChocoChipCookie_Description": "오븐에서 갓 구운 클래식 초콜릿 칩 쿠키. 엄마가 만든 맛 그대로!",
+    "ChocoChipCookie_Missing": "초콜릿 1개, 버터 1개, 설탕 1개가 필요합니다.",
+    
+    "Gingersnap_Name": "진저스냅 쿠키",
+    "Gingersnap_Description": "완벽하게 바삭한 향신료 쿠키. 먹을 때 '딱' 소리가 납니다.",
+    "Gingersnap_Missing": "쿠키 반죽 1개, 갈색 설탕 1개, 생강 1개, 계피 스틱 1개가 필요합니다.",
+    
+    "Macaron_Name": "마카롱",
+    "Macaron_Description": "다양한 맛이 있는 작고 다채로운 쿠키.",
+    "Macaron_Missing": "쿠키 반죽 1개와 아몬드 1개가 필요합니다.",
+    
+    "Shortbread_Name": "쇼트브레드 쿠키",
+    "Shortbread_Description": "버터가 풍부한 쿠키, 잼을 채운 디저트.",
+    "Shortbread_Missing": "쿠키 반죽 1개와 버터 1개가 필요합니다.",
+    
+    "SugarCookie_Name": "슈가 쿠키",
+    "SugarCookie_Description": "달콤한 프로스팅으로 덮인 슈가 쿠키. 무지개 스프링클로 장식되었습니다.",
+    "SugarCookie_Missing": "쿠키 반죽 1개와 버터 1개가 필요합니다.",
+    // og dough objects
+    "BananaBread_Name": "바나나 브레드",
+    "BananaBread_Description": "잘게 으깬 바나나와 호두가 들어간 촉촉한 빵.",
+    "BananaBread_Missing": "반죽 1개, 바나나 1개, 설탕 1개가 필요합니다.",
+    
+    "Bread_Name": "홈메이드 브레드",
+    "Bread_Description": "소박한 빵 한 덩어리. 그 영광을 만끽하세요!",
+    "Bread_Missing": "소금 1개가 필요합니다.",
+    
+    "Rolls_Name": "브레드롤",
+    "Rolls_Description": "어떤 요리에도 잘 어울리는 작은 버터롤.",
+    "Rolls_Missing": "반죽 1개와 버터 1개가 필요합니다.",
+    
+    "CinnamonRolls_Name": "시나몬롤",
+    "CinnamonRolls_Description": "시나몬으로 속을 채운 끈적하고 달콤한 롤, 아이싱으로 덮여 있습니다.",
+    "CinnamonRolls_Missing": "반죽 1개와 갈색 설탕 1개가 필요합니다.",
+    
+    "GarlicBread_Name": "마늘 빵",
+    "GarlicBread_Description": "마늘과 파슬리로 맛을 낸 바삭하고 버터리한 빵, 치즈가 듬뿍 올라 있습니다!",
+    "GarlicBread_Missing": "반죽 1개, 버터 1개, 파슬리 1개, 치즈 1개가 필요합니다.",
+    
+    "WheatBread_Name": "밀빵",
+    "WheatBread_Description": "통밀과 해바라기 씨로 만든 영양가 높은 빵.",
+    "WheatBread_Missing": "반죽 1개가 필요합니다.",
+    
+    "ZucchiniBread_Name": "호박 브레드",
+    "ZucchiniBread_Description": "강판에 간 호박으로 만든 놀라운 단맛의 빵.",
+    "ZucchiniBread_Missing": "반죽 1개, 갈색 설탕 1개, 계피 스틱 1개가 필요합니다.",
+    // og pie crust objects
+    "ApplePie_Name": "애플파이",
+    "ApplePie_Description": "사과로 만든 바삭하고 즙이 가득한 파이. 전통적인 가을 디저트입니다.",
+    "ApplePie_Missing": "파이 크러스트 1개와 계피 스틱 1개가 필요합니다.",
+    
+    "BananaCreamPie_Name": "바나나 크림 파이",
+    "BananaCreamPie_Description": "크리미한 바나나 푸딩을 채운 파이, 위에는 휘핑크림으로 덮여 있습니다.",
+    "BananaCreamPie_Missing": "파이 크러스트 1개와 대형 우유 1개가 필요합니다.",
+    
+    "BlackberryPie_Name": "블랙베리 파이",
+    "BlackberryPie_Description": "블랙베리로 만든 가을철 시즌 파이, 라티스 크러스트로 장식되었습니다.",
+    "BlackberryPie_Missing": "파이 크러스트 1개와 레몬 제스트 1개가 필요합니다.",
+    
+    "BlueberryGalette_Name": "블루베리 갈레트",
+    "BlueberryGalette_Description": "블루베리로 속을 채운 소박한 타르트, 설탕을 입힌 크러스트.",
+    
+    "CherryGalette_Name": "체리 갈레트",
+    "CherryGalette_Description": "체리로 속을 채운 소박한 타르트, 설탕을 입힌 크러스트.",
+    
+    "FigGalette_Name": "무화과 갈레트",
+    "FigGalette_Description": "무화과로 속을 채운 소박한 타르트, 설탕을 입힌 크러스트.",
+    
+    "KeyLimePie_Name": "키 라임 파이",
+    "KeyLimePie_Description": "라임 주스와 제스트로 만든 크리미하고 신맛 나는 파이, 휘핑크림으로 덮여 있습니다.",
+    "KeyLimePie_Missing": "파이 크러스트 1개와 대형 우유 1개가 필요합니다.",
+    
+    "LemonTart_Name": "레몬 타르트",
+    "LemonTart_Description": "레몬 커드를 채운 타르트 쉘로 만든 달콤하고 신맛 나는 디저트.",
+    "LemonTart_Missing": "파이 크러스트 1개와 대형 계란 1개가 필요합니다.",
+    
+    "LunaresPie_Name": "루나레스 파이",
+    "LunaresPie_Description": "이 파이는 달의 축복을 받은 것으로 전해집니다. 여신의 딸을 위한 특별한 선물입니다.",
+    "LunaresPie_Missing": "파이 크러스트 1개, 메이플 시럽 2개, 호박 3개가 필요합니다.",
+    
+    "MushroomQuiche_Name": "버섯 키시",
+    "MushroomQuiche_Description": "야생 버섯, 숙성된 치즈, 시금치를 듬뿍 넣은 고소한 키시.",
+    "MushroomQuiche_Missing": "파이 크러스트 1개, 치즈 1개, 시금치 5개, 대형 계란 6개가 필요합니다.",
+    
+    "RhubarbPie_Name": "딸기 루바브 파이",
+    "RhubarbPie_Description": "신맛 나는 루바브와 달콤한 딸기로 만든 파이, 의외로 잘 어울립니다.",
+    "RhubarbPie_Missing": "파이 크러스트 1개, 설탕 1개, 딸기 4개가 필요합니다.",
+    // og graham cracker crust objects
+    "CoffeeCheesecake_Name": "커피 치즈케이크",
+    "CoffeeCheesecake_Description": "갓 내린 커피로 만든 크리미하고 강렬한 맛의 치즈케이크. 바로 기운이 나게 해줄 거예요!",
+    "CoffeeCheesecake_Missing": "커피 1개, 크림치즈 1개, 설탕 1개, 바닐라 1개가 필요합니다.",
+    
+    "LemonGingerCheesecake_Name": "레몬 생강 블루베리 치즈케이크",
+    "LemonGingerCheesecake_Description": "레몬, 생강, 신선한 블루베리를 조화롭게 혼합한 풍부한 치즈케이크.",
+    "LemonGingerCheesecake_Missing": "그레이엄 크래커 크러스트 1개, 크림치즈 1개, 생강 1개, 블루베리 5개가 필요합니다.",
+    
+    "PapayaCheesecake_Name": "파파야 라임 치즈케이크",
+    "PapayaCheesecake_Description": "달콤한 파파야로 만든 크리미한 치즈케이크. 라임 제스트가 상큼한 맛을 더해줍니다.",
+    "PapayaCheesecake_Missing": "그레이엄 크래커 크러스트 1개, 크림치즈 1개, 라임 제스트 1개, 메이플 시럽 1개가 필요합니다.",
+    
+    "PeachCheesecake_Name": "복숭아 타임 치즈케이크",
+    "PeachCheesecake_Description": "복숭아, 타임, 염소치즈로 만든 살짝 짭짤한 치즈케이크.",
+    "PeachCheesecake_Missing": "그레이엄 크래커 크러스트 1개, 염소치즈 1개, 설탕 1개, 복숭아 2개가 필요합니다.",
+    
+    "Gallete_Missing": "파이 크러스트 1개와 설탕 1개가 필요합니다.",
+    // machines
+    "Mixer_Name": "제빵사의 믹서",
+    "Mixer_Description": "다양한 반죽과 케이크 배터를 만들기 위한 대형 산업용 믹서.",
+    "Oven_Name": "제빵사의 오븐",
+    "Oven_Description": "다양한 구운 음식을 만드는 주방 필수 아이템.",
+    // everything below this line is not translated
+    // wildflour missing messages for 2.0
+    "WFChocolateCookieDough_Missing": "밀가루 1개와 와일드 카카오 열매 1개가 필요합니다.",
+    "WFRCChocolateCookieDough_Missing": "밀가루 1개와 로즈 카카오 열매 1개가 필요합니다.",
+    "WFDragonfruitCake_Missing": "케이크 반죽 1개, 와일드 라즈베리 1개, 드래곤 프루트 1개가 필요합니다.",
+    "WFMangoTart_Missing": "파이 크러스트 1개, 크림치즈 1개, 오렌지 제스트 1개, 석양 망고 2개가 필요합니다.",
+    "WFBaklava_Missing": "쿠키 반죽 1개, 피칸 1개, 세인트 카놀리 아몬드 1개, 꿀 1개가 필요합니다.",
+    "WFCoffeeLiqueurCake_Missing": "초콜릿 케이크 반죽 1개, 커피 1개, 칼리코 바닐라 1개, 설탕가루 5개가 필요합니다.",
+    "WFMargaritaCake_Missing": "케이크 반죽 1개, 피티트 라임 1개, 칼리코 바닐라 1개, 대형 우유 3개가 필요합니다.",
+    "WFIrishCheesecake_MissingTemp": "그레이엄 크래커 크러스트 1개, 크림치즈 1개, 신더스냅 계피 1개, 대형 우유 1개, 페일 에일 1개가 필요합니다.",
+    "WFIrishCheesecake_Missing": "그레이엄 크래커 크러스트 1개, 크림치즈 1개, 계피 스틱 1개, 대형 우유 1개가 필요합니다.",
+    "WFPinaColadaPie_Missing": "그레이엄 크래커 크러스트 1개, 크림치즈 1개, 파인애플 1개, 코코넛 2개, 유성 체리 3개가 필요합니다.",
+    "WFRumFruitcake_MissingTemp": "케이크 반죽 1개, 다크 에일 1개, 석양 망고 1개, 유성 체리 2개, 그램플턴 호두 3개가 필요합니다.",
+    "WFRumFruitcake_Missing": "케이크 반죽 1개, 석양 망고 1개, 유성 체리 2개, 그램플턴 호두 3개가 필요합니다.",
+    "WFBirthdayCake_Missing": "케이크 반죽 1개, 양귀비 3개, 피들헤드 펀 3개, 설탕자두 3개가 필요합니다.",
+    "WFBundtCake_Missing": "칼리코 바닐라 1개와 대형 계란 4개가 필요합니다.",
+    "WFLemonCoconutCake_Missing": "케이크 반죽 1개, 크림치즈 1개, 피티트 레몬 3개, 대형 계란 5개가 필요합니다.",
+    "WFPineappleCake_Missing": "케이크 반죽 1개, 갈색 설탕 1개, 유성 체리 8개가 필요합니다.",
+    "WFRaspberryRCake_Missing": "케이크 반죽 1개, 칼리코 바닐라 1개, 대형 우유 3개, 와일드 라즈베리 3개, 대형 계란 6개가 필요합니다.",
+    "WFStrawberryRCake_Missing": "케이크 반죽 1개와 와일드 스트로베리 1개가 필요합니다.",
+    "WFWeddingCake_Missing": "케이크 반죽 1개와 칼리코 바닐라 1개가 필요합니다.",
+    "WFCRedVelvetRCake_Missing": "초콜릿 케이크 반죽 1개, 크림치즈 1개, 와일드 카카오 열매 1개가 필요합니다.",
+    "WFRCRedVelvetRCake_Missing": "초콜릿 케이크 반죽 1개, 크림치즈 1개, 로즈 카카오 열매 1개가 필요합니다.",
+    "WFGingersnap_Missing": "쿠키 반죽 1개, 갈색 설탕 1개, 생강 1개, 신더스냅 계피 1개가 필요합니다.",
+    "WFMacaron_Missing": "쿠키 반죽 1개와 세인트 카놀리 아몬드 1개가 필요합니다.",
+    "WFBananaBread_Missing": "반죽 1개, 레이디핑거 바나나 1개, 설탕 1개가 필요합니다.",
+    "WFZucchiniBread_Missing": "반죽 1개, 갈색 설탕 1개, 신더스냅 계피 1개가 필요합니다.",
+    "WFCoffeeCheesecake_Missing": "커피 1개, 설탕 1개, 칼리코 바닐라 1개, 크림치즈 1개가 필요합니다.",
+    "WFPeachCheesecake_Missing": "그레이엄 크래커 크러스트 1개, 염소치즈 1개, 설탕 1개, 복숭아 2개가 필요합니다.",
+    "WFApplePie_Missing": "파이 크러스트 1개와 신더스냅 계피 1개가 필요합니다.",
+    "WFRhubarbPie_Missing": "파이 크러스트 1개, 설탕 1개, 와일드 스트로베리 4개가 필요합니다.",
+    /*
+    *       NEW STUFF FOR 3.0
+    */
+    // 3.0 equipment
+    "ConvectOven_Name": "컨벡션 오븐",
+    "ConvectionOven_Desc": "팬을 사용하여 열을 고르게 분배하는 특수 오븐.",
+    // 3.0 mixer objects
+    "CookieCrust_Name": "쿠키 크러스트",
+    "CookieCrust_Desc": "잘게 부순 초콜릿 쿠키와 버터로 만든 파이 크러스트.",
+    "CookieCrust_Missing": "버터 1개와 설탕 1개가 필요합니다.",
+    
+    "MuffinBatter_Name": "머핀 반죽",
+    "MuffinBatter_Desc": "평범한 머핀 반죽, 아침 간식 만들기에 완벽합니다.",
+    "MuffinBAtter_Missing": "식용유 1개와 설탕 1개가 필요합니다.",
+    
+    "Streusul_Name": "스트루설",
+    "Streusul_Desc": "다양한 구운 음식 위에 올리는 달콤하고 바삭한 토핑.",
+    "Stresusel_Missing": "설탕 1개, 갈색 설탕 1개, 버터 1개가 필요합니다.",
+    // Baking Objects
+    "WackyCake_Name": "와키 케이크",
+    "WackyCake_Desc": "식초와 베이킹 소다를 사용해 푹신하게 만든 기묘한 케이크.",
+    "WackyCake_Missing": "초콜릿 케이크 반죽 1개와 기름 1개가 필요합니다.",
+    
+    "StrawberryGalette_Name": "스트로베리 갈레트",
+    "StrawberryGalette_Desc": "딸기가 들어간 시골풍 타르트. 크러스트 위에는 설탕이 뿌려져 있습니다.",
+    
+    "SalmonberryGalette_Name": "새먼베리 갈레트",
+    "SalmonberryGalette_Desc": "새먼베리가 들어간 시골풍 타르트. 크러스트 위에는 설탕이 뿌려져 있습니다.",
+    
+    "RaspberryGalette_Name": "라즈베리 갈레트",
+    "RaspberryGalette_Desc": "라즈베리가 들어간 시골풍 타르트. 크러스트 위에는 설탕이 뿌려져 있습니다.",
+    
+    "VanillaCupcake_Name": "바닐라 컵케이크",
+    "VanillaCupcake_Desc": "바닐라 컵케이크와 바닐라 프로스팅. 간단하고 매우 달콤합니다.",
+    "VanillaCupcake_Missing": "버터 1개, 바닐라 1개, 설탕 1개가 필요합니다.",
+    "WFVanillaCupcake_Missing": "버터 1개, 칼리코 바닐라 1개, 설탕 1개가 필요합니다.",
+    
+    "ChocoCupcake_Name": "초콜릿 컵케이크",
+    "ChocoCupcake_Desc": "초콜릿 컵케이크와 초콜릿 프로스팅. 진하고 맛있습니다.",
+    "ChocoCupcake_Missing": "버터 1개, 설탕 1개, 카카오 열매 1개가 필요합니다.",
+    "WFWCChocoCupcakeMissing": "버터 1개, 설탕 1개, 와일드 카카오 열매 1개가 필요합니다.",
+    "WFRCChocoCupcake_Missing": "버터 1개, 설탕 1개, 로즈 카카오 열매 1개가 필요합니다.",
+    
+    "StickyBuns_Name": "스티키 번",
+    "StickyBuns_Desc": "시나몬롤의 가까운 친척. 설탕과 피칸 시럽으로 덮여 있습니다.",
+    "StickyBuns_Missing": "반죽 1개, 시나몬 스틱 2개, 피칸 3개가 필요합니다.",
+    "WFStickyBuns_Missing": "반죽 1개, 신더스냅 계피 스틱 2개, 피칸 3개가 필요합니다.",
+    
+    "PlainBagel_Name": "플레인 베이글",
+    "PlainBagel_Desc": "플레인 베이글. 젤리와 함께 먹으면 맛있습니다.",
+    "PlainBagel_Missing": "버터 1개가 필요합니다.",
+    
+    "EverythingBagel_Name": "에브리싱 베이글",
+    "EverythingBagel_Desc": "모든 재료가 조금씩 들어간 베이글.",
+    "EverythingBagel_Missing": "반죽 1개, 소금 1개, 양귀비 씨앗 1팩, 후추 1개가 필요합니다.",
+    
+    "CheeseBagel_Name": "치즈 베이글",
+    "CheeseBagel_Desc": "토스트한 치즈가 베이글 위에 구워진 고소한 베이글.",
+    "CheeseBagel_Missing": "반죽 1개가 필요합니다.",
+    
+    "SesameBagel_Name": "참깨 베이글",
+    "SesameBagel_Desc": "굽기 전에 씨앗에 굴린 플레인 베이글의 고급 버전.",
+    "SesameBagel_Missing": "반죽 1개와 버터 1개가 필요합니다.",
+    
+    "CinnamonRasinBagel_Name": "시나몬 건포도 베이글",
+    "CinnamonRasinBagel_Desc": "건포도와 달콤한 시나몬이 들어간 베이글.",
+    "CinnamonRasinBagel_Missing": "반죽 1개, 시나몬 스틱 1개, 버터 1개가 필요합니다.",
+    "WFCinnamoRasinBagel_Missing": "반죽 1개, 신더스냅 계피 스틱 1개, 버터 1개가 필요합니다.",
+    
+    "ShooflyPie_Name": "슈플라이 파이",
+    "ShooflyPie_Desc": "전설에 따르면 이 파이의 속이 너무 진해서 파리가 빠져나올 수 없다고 합니다.",
+    "ShooflyPie_Missing": "갈색 설탕 1개와 파이 크러스트 1개가 필요합니다.",
+    
+    "PBPie_Name": "피넛버터 파이",
+    "PBPie_Desc": "초콜릿 크러스트에 진한 피넛버터 무스를 채운 고급 간식.",
+    "PBPie_Missing": "피넛버터 1개, 초콜릿 1개, 우유 1개가 필요합니다.",
+    
+    "GrasshopperPie_Name": "그래스호퍼 파이",
+    "GrasshopperPie_Desc": "민트가 겨울 맛이지만, 이 민트 초콜릿 파이는 일년 내내 인기입니다.",
+    "GrasshopperPie_Missing": "쿠키 크러스트 1개, 초콜릿 1개, 우유 1개가 필요합니다.",
+    
+    "펀길SilkPie_Name": "펀길 실크 파이",
+    "펀길SilkPie_Desc": "부드러운 초콜릿 커스터드가 채워진 파이 껍질. 매우 진하지만 정말 맛있습니다.",
+    "펀길SilkPie_Missing": "우유 1개, 파이 크러스트 1개, 초콜릿 2개가 필요합니다.",
+    
+    "ChocoCheesecake_Name": "초콜릿 치즈케이크",
+    "ChocoCheesecake_Desc": "여러 형태의 초콜릿을 사용하여 만들어낸 초콜릿 치즈케이크, 정말 맛있습니다.",
+    "ChocoCheesecake_Missing": "쿠키 크러스트 1개, 초콜릿 1개, 우유 1개, 카카오 열매 1개가 필요합니다.",
+    "WFWCChocoCheesecake_Missing": "쿠키 크러스트 1개, 초콜릿 1개, 우유 1개, 와일드 카카오 열매 1개가 필요합니다.",
+    "WFRCChocoCheesecake_Missing": "쿠키 크러스트 1개, 초콜릿 1개, 우유 1개, 로즈 카카오 열매 1개가 필요합니다.",
+    
+    "펀길Cheesecake_Name": "펀길 치즈케이크",
+    "펀길Cheesecake_Desc": "클래식 바닐라 치즈케이크, 딸기가 토핑으로 올려져 있습니다.",
+    "펀길Cheesecake_Missing": "딸기 1개, 크림치즈 1개, 바닐라 1개가 필요합니다.",	
+    "WF펀길Cheesecake_Missing": "와일드 스트로베리 1개, 크림치즈 1개, 칼리코 바닐라 1개가 필요합니다.",
+	
+    "StrawberryBasilCupcake_Name": "딸기 바질 컵케이크",
+    "StrawberryBasilCupcake_Desc": "신선한 딸기와 꽃 향기의 바질이 어우러져 봄에 딱 맞는 컵케이크입니다.",
+    "StrawberryBasilCupcake_Missing": "딸기 1개, 케이크 반죽 1개, 설탕 1개가 필요합니다.",
+    "WFStrawberryBasilCupcake_Missing": "와일드 스트로베리 1개, 케이크 반죽 1개, 설탕 1개가 필요합니다.",
+    
+    "PeachesnCreamCake_Name": "복숭아 크림 케이크",
+    "PeachesnCreamCake_Desc": "노란 케이크에 신선한 복숭아와 휘핑크림이 층층이 쌓인 케이크.",
+    "PeachesnCreamCake_Missing": "케이크 반죽 1개와 우유 1개가 필요합니다.",
+    
+    "BananaCake_Name": "바나나 케이크",
+    "BananaCake_Desc": "조금 달콤한 열대의 바나나 맛이 특징인 밀도가 있는 케이크.",
+    "BananaCake_Missing": "케이크 반죽 1개, 기름 1개, 달걀 3개가 필요합니다.",
+    
+    "MultigrainBread_Name": "혼합 곡물 빵",
+    "MultigrainBread_Desc": "여러 종류의 곡물이 들어가 있어 매우 든든한 빵.",
+    "MultigrainBread_missing": "밀가루 2개와 보리 2개가 필요합니다.",
+    
+    "OatnutMuffins_Name": "오트넛 머핀",
+    "OatnutMuffins_Desc": "고소하고 구수한 맛의 견과류가 들어간 머핀.",
+    "OatnutMuffins_Missing": "머핀 반죽 1개, 호두 2개, 피칸 2개가 필요합니다.",
+    "WFOatnutMuffins_Missing": "머핀 반죽 1개, 그램플턴 호두 2개, 피칸 2개가 필요합니다.",
+    
+    "ChocoCakeRoll_Name": "초콜릿 케이크 롤",
+    "ChocoCakeRoll_Desc": "인기 있는 조자 스낵처럼 보이지만, 그 맛은 천 배 더 맛있습니다.",
+    "ChocoCakeRoll_Missing": "설탕 1개, 초콜릿 케이크 반죽 1개, 카카오 열매 1개가 필요합니다.",
+    "WFWCChocoCakeRoll_Missing": "설탕 1개, 초콜릿 케이크 반죽 1개, 와일드 카카오 열매 1개가 필요합니다.",
+    "WFRCChocoCakeRoll_Missing": "설탕 1개, 초콜릿 케이크 반죽 1개, 로즈 카카오 열매 1개가 필요합니다.",
+    
+    "MapleWalnutMuffin_Name": "메이플 호두 머핀",
+    "MapleWalnutMuffin_Desc": "가을과 겨울에 인기 있는 머핀으로, 달콤한 메이플 시럽과 든든한 호두가 어우러져 있습니다.",
+    "MapleWalnutMuffin_Missing": "메이플 시럽 1개와 머핀 반죽 1개가 필요합니다.",
+    
+    "TurtleCheesecake_Name": "터틀 치즈케이크",
+    "TurtleCheesecake_Desc": "초콜릿, 캐러멜, 피칸의 조합이 이 치즈케이크를 모두가 좋아하는 디저트로 만듭니다.",
+    "TurtleCheesecake_Missing": "쿠키 크러스트 1개, 초콜릿 1개, 크림치즈 1개, 캐러멜 2개가 필요합니다.",
+    
+    "BlueberryMuffins_Name": "블루베리 머핀",
+    "BlueberryMuffins_Desc": "신선한 블루베리가 가득한 머핀. 윗면은 거친 설탕으로 장식되어 있습니다.",
+    "BlueberryMuffin_Missing": "머핀 반죽 1개와 설탕 2개가 필요합니다.",
+    
+    "PumpkinMuffin_Name": "호박 머핀",
+    "PumpkinMuffin_Desc": "가을에만 나오는 특색 있는 맛. 달콤한 호박과 시나몬의 힌트가 균형을 이룹니다.",
+    "PumpkinMuffin_Missing": "머핀 반죽 1개와 시나몬 스틱 2개가 필요합니다.",
+    "WFPumpkinMuffin_Missing": "머핀 반죽 1개와 신더스냅 시나몬 스틱 2개가 필요합니다.",
+    
+    "CornMuffins_Name": "옥수수 머핀",
+    "CornMuffins_Desc": "옥수수 가루로 만든 머핀. 특유의 노란색과 달콤한 맛이 특징입니다.",
+    "CornMuffin_Missing": "머핀 반죽 1개와 꿀 1개가 필요합니다.",
+    
+    "Cornbread_Name": "콘 브레드",
+    "Cornbread_Desc": "서부 고토로 요리의 필수 음식. 추가된 꿀 덕분에 더욱 달콤합니다.",
+    "Cornbread_Missing": "반죽 1개와 꿀 1개가 필요합니다.",
+    
+    "ChocoMuffin_Name": "초콜릿 칩 머핀",
+    "ChocoMuffin_Desc": "아침 식사빵처럼 보이지만, 전통적인 쿠키 맛과 똑같습니다!",
+    "ChocoMuffin_Missing": "초콜릿 1개와 설탕 1개가 필요합니다.",
+    
+    "ZuzuCreamPie_Name": "주주 크림 파이",
+    "ZuzuCreamPie_Desc": "초콜릿 가나슈로 덮인 크림-filled 케이크. 이름과 달리 파이는 아닙니다.",
+    "ZuzuCreamPie_Missing": "케이크 반죽 1개, 우유 1개, 바닐라 1개, 초콜릿 1개가 필요합니다.",
+    
+    "PBCookies_Name": "피넛버터 쿠키",
+    "PBCookies_Desc": "집에서 만든 피넛버터로 만든 클래식한 쿠키.",
+    "PBCookie_Missing": "쿠키 반죽 1개와 설탕 2개가 필요합니다.",
+    
+    "OatmealScotchie_Name": "오트밀 스코치 쿠키",
+    "OatmealScotchie_Desc": "버터스캇 칩이 들어간 아주 달콤한 오트밀 쿠키.",
+    "OatmealScotchies_Missing": "쿠키 반죽 1개, 버터 1개, 오트 3개가 필요합니다.",
+    
+    "PoundCake_Name": "파운드 케이크",
+    "PoundCake_Desc": "클래식한 노란 파운드 케이크. 아이스크림 한 스쿱만 있으면 완벽합니다.",
+    "PoundCake_Missing": "케이크 반죽 1개, 버터 2개, 설탕 2개, 달걀 2개가 필요합니다.",
+    
+    "ChocoPoundCake_Name": "초콜릿 파운드 케이크",
+    "ChocoPoundCake_Desc": "초콜릿이 전통적인 파운드 케이크 맛이 아니지만, 여전히 맛있습니다.",
+    "ChocoPoundCake_Missing": "초콜릿 케이크 반죽 1개, 버터 2개, 달걀 2개, 설탕 2개가 필요합니다.",
+	
+    "MarblePoundCake_Name": "마블 파운드 케이크",
+    "MarblePoundCake_Desc": "하나의 맛만 고를 수 없는 사람들을 위한 완벽한 케이크.",
+    "MarblePoundCake_Missing": "초콜릿 케이크 반죽 1개, 케이크 반죽 1개, 버터 2개, 설탕 2개가 필요합니다.",
+    
+    "AppleMuffin_Name": "애플 스트루셀 머핀",
+    "AppleMuffin_Desc": "신선한 사과와 시나몬이 이 머핀에 풍미를 더합니다. 바삭한 스트루셀이 얹혀 있습니다.",
+    "AppleMuffin_Missing": "사과 2개, 머핀 반죽 1개, 스트루셀 1개가 필요합니다.",
+    "WFAppleMuffin_Missing": "앰브로시아 사과 2개, 머핀 반죽 1개, 스트루셀 1개가 필요합니다.",
+    
+    "AppleCrisp_Name": "애플 크립스",
+    "AppleCrisp_Desc": "구운 사과 위에 스트루셀을 얹고, 시나몬으로 맛을 낸 디저트.",
+    "AppleCrisp_Missing": "스트루셀 1개, 설탕 1개, 밀가루 1개, 시나몬 스틱 1개가 필요합니다.",
+    "WFAppleCrisp_Missing": "스트루셀 1개, 설탕 1개, 밀가루 1개, 신더스냅 시나몬 스틱 1개가 필요합니다.",
+    
+    "PeachCrisp_Name": "복숭아 크립스",
+    "PeachCrisp_Desc": "여름의 끝을 알리는 복숭아와 스트루셀이 얹힌 구운 디저트.",
+    "PeachCrisp_Missing": "복숭아 2개, 밀가루 1개, 설탕 1개가 필요합니다.",
+    "WFPeachCrisp_Missing": "스노우 복숭아 2개, 밀가루 1개, 설탕 1개가 필요합니다.",
+    
+    "PearCrips_Name": "배 크립스",
+    "PearCrisp_Desc": "캐슬빌리지에서 인기 있는 배와 꿀이 들어간 스트루셀이 얹힌 크립스.",
+    "PearCrisp_Missing": "스트루셀 1개, 밀가루 1개, 꿀 1개가 필요합니다.",
+    
+    "CoffeeCake_Name": "커피 케이크",
+    "CoffeeCake_Desc": "이 밀도가 있는 케이크는 커피와 함께 먹으면 아주 좋습니다.",
+    "CoffeeCake_Missing": "케이크 반죽 1개, 스트루셀 1개, 버터 1개, 호두 2개가 필요합니다.",
+    "WFCoffeeCake_Missing": "케이크 반죽 1개, 스트루셀 1개, 버터 1개, 그램플턴 호두 2개가 필요합니다.",
+    
+    "StrawberryShortcake_Name": "스트로베리 쇼트 케이크",
+    "StrawberryShortcake_Desc": "신선한 딸기와 휘핑크림을 넣은 비스킷. 아이들이 좋아하는 간식입니다.",
+    "StrawberryShortcake_Missing": "반죽 1개, 설탕 1개, 딸기 5개가 필요합니다.",
+    "WFStrawberryShortcake_Missing": "반죽 1개, 설탕 1개, 와일드 스트로베리 5개가 필요합니다.",
+    
+    "TropicalPie_Name": "트로피컬 파이",
+    "TropicalPie_Desc": "열대 과일로 맛을 낸 크림 파이.",
+    "TropicalPie_Missing": "파이 크러스트 1개, 우유 1개, 파파야 1개, 리치 1개가 필요합니다.",
+    
+    "Spanakopita_Name": "스파나코피타",
+    "Spanakopita_Desc": "보석 섬에서 온 짭짤한 파이. 시금치와 염소 치즈가 들어갑니다.",
+    "Spanakopita_Missing": "파이 크러스트 1개, 염소 치즈 1개, 양파 1개가 필요합니다.",
+    
+    "SweetPotatoPie_Name": "고구마 파이",
+    "SweetPotatoPie_Desc": "수확 시즌에 그램플턴에서 인기 있는 파이. 맛은 호박 파이와 비슷합니다.",
+    "SweetPotatoPie_Missing": "파이 크러스트 1개, 시나몬 스틱 1개, 생강 1개, 달걀 2개가 필요합니다.",
+    "WFSweetPotatoPie_Missing": "파이 크러스트 1개, 신더스냅 시나몬 스틱 1개, 생강 1개, 달걀 2개가 필요합니다.",
+    
+    "BeanPie_Name": "빈 파이",
+    "BeanPie_Desc": "콩을 으깬 필링으로 만든 신기한 파이. 의외로 맛있습니다.",
+    "BeanPie_Missing": "파이 크러스트 1개, 설탕 1개, 버터 1개, 시나몬 1개, 바닐라 1개가 필요합니다.",
+    "WFBeanPie_Missing": "파이 크러스트 1개, 설탕 1개, 버터 1개, 신더스냅 시나몬 1개, 바닐라 1개가 필요합니다.",
+    
+    "BumbleberryPie_Name": "범블베리 파이",
+    "BumbleberryPie_Desc": "혼합 베리로 만든 파이의 필링.",
+    "BumbleberryPie_Missing": "블랙베리 4개, 라즈베리 4개, 블루베리 4개, 딸기 4개가 필요합니다.",
+    "WFBumbleberryPie_Missing": "블랙베리 4개, 와일드 라즈베리 4개, 블루베리 4개, 와일드 스트로베리 4개가 필요합니다.",
+    
+    "PumpkinPie_Name": "호박 파이",
+    "PumpkinPie_Desc": "고전적인 가을 간식. 호박과 향신료로 만든 필링.",
+    "PumpkinPie_Missing": "파이 크러스트 1개, 우유 1개, 호박 1개가 필요합니다.",
+    
+    "ButterTart_Name": "버터 타르트",
+    "ButterTart_Desc": "펀길의 북부 지역에서 온 버터 맛의 간식. 이 버전에는 건포도와 견과류가 추가되었습니다.",
+    "ButterTart_Missing": "파이 크러스트 1개, 호두 2개, 피칸 2개, 건포도 2개, 설탕 3개가 필요합니다.",
+    "WFButterTart_Missing": "파이 크러스트 1개, 그램플턴 호두 2개, 피칸 2개, 건포도 2개, 설탕 3개가 필요합니다.",
+	
+    "CoconutPie_Name": "코코넛 크림 파이",
+    "CoconutPie_Desc": "파이 크러스트에 크리미한 코코넛 필링을 채운 디저트.",
+    "CoconutPie_Missing": "파이 크러스트 1개, 코코넛 밀크 1개, 달걀 2개, 설탕 2개가 필요합니다.",
+    
+    "MintCookie_Name": "민트 쿠키",
+    "MintCookie_Desc": "초콜릿과 민트가 어우러진 쿠키에 초콜릿을 덮은 간식. 사람들은 이 쿠키를 좋아합니다.",
+    "MintCookie_Missing": "초콜릿 1개, 민트 가지 2개가 필요합니다.",
+    "WFMintCookie_Missing": "초콜릿 1개, 펠리컨 민트 가지 2개가 필요합니다.",
+    
+    "PrismaticBagel_Name": "프리즈마틱 베이글",
+    "PrismaticBagel_Desc": "맛은 평범하지만, 외모는 확실히 평범하지 않은 베이글.",
+    "PrismaticBagel_Missing": "반죽 1개가 필요합니다.",
+    
+    "RainbowCookie_Name": "레인보우 쿠키",
+    "RainbowCookie_Desc": "쿠키라고 불리지만, 사실은 맛이 순한 케이크입니다.",
+    "RainbowCookie_Missing": "케이크 반죽 1개, 초콜릿 1개, 아몬드 2개, 라즈베리 2개가 필요합니다.",
+    "WFRainbowCookie_Missing": "케이크 반죽 1개, 초콜릿 1개, 성 캐놀리 아몬드 2개, 와일드 라즈베리 2개가 필요합니다.",
+    
+    "WholeWheatBagel_Name": "통밀 베이글",
+    "WholeWheatBagel_Desc": "통밀로 만든 더 건강한 베이글.",
+    "WholeWheatBagel_Missing": "반죽 1개, 메밀 1개가 필요합니다.",
+    
+    "LavenderShortbread_Name": "라벤더 쇼트브레드",
+    "LavenderShortbread_Desc": "말린 라벤더로 맛을 낸 우아한 쇼트브레드 쿠키.",
+    "LavenderShortbread_Missing": "쿠키 반죽 1개, 버터 1개가 필요합니다.",
+    
+    "FigCookie_Name": "무화과 쿠키",
+    "FigCookie_Desc": "무화과 필링이 들어간 쿠키. 아이들의 도시락에서 자주 보이는 간식입니다.",
+    "FigCookie_Missing": "쿠키 반죽 1개, 설탕 가루 2개가 필요합니다.",
+    
+    "YuzuTeaCookie_Name": "유자차 쿠키",
+    "YuzuTeaCookie_Desc": "유자와 녹차로 맛을 낸 약간 달콤한 쿠키.",
+    "YuzuTeaCookie_Missing": "설탕 1개, 쿠키 반죽 1개, 차잎 2개가 필요합니다.",
+    
+    "TiramasuCheesecake_Name": "티라미수 치즈케이크",
+    "TiramasuCheesecake_Desc": "클래식한 디저트를 기반으로 한 진한 치즈케이크. 달지 않지만 매우 진합니다.",
+    "TiramasuCheesecake_Missing": "파이 크러스트 1개, 크림 치즈 1개, 코코아 포드 1개가 필요합니다.",
+    "WFWCTiramasuCheesecake_Missing": "파이 크러스트 1개, 크림 치즈 1개, 와일드 카카오 포드 1개가 필요합니다.",
+    "WFRCTiramasuCheesecake_Missing": "파이 크러스트 1개, 크림 치즈 1개, 로즈 카카오 포드 1개가 필요합니다.",
+    
+    "LemonadeCookie_Name": "레모네이드 쿠키",
+    "LemonadeCookie_Desc": "여름의 클래식 음료 맛을 쿠키로 담아낸 간식.",
+    "LemonadeCookie_Missing": "쿠키 반죽 1개, 설탕 가루 1개가 필요합니다.",
+    
+    "LemonThymeBread_Name": "레몬 타임 브레드",
+    "LemonThymeBread_Desc": "레몬 제스트와 타임을 넣어 풍미를 더한 신선한 빵.",
+    "LemonThymeBread_Missing": "레몬 제스트 2개, 반죽 1개가 필요합니다.",
+    
+    "HalfmoonCookies_Name": "하프문 쿠키",
+    "HalfmoonCookies_Desc": "초콜릿 쇼트브레드를 하프문 모양으로 장식한 간식. 한 달 중간에 인기 있는 간식입니다.",
+    "HalfmoonCookies_Missing": "초콜릿 쿠키 반죽 1개, 바닐라 1개가 필요합니다.",
+    "WFHalfmoonCookies_Missing": "초콜릿 쿠키 반죽 1개, 칼리코 바닐라 1개가 필요합니다.",
+    
+    "PlantainCake_Name": "플랜틴 포스터 케이크",
+    "PlantainCake_Desc": "이 케이크는 바나나 포스터에서 영감을 얻었지만, 페른길에서는 플랜틴을 사용하여 만듭니다.",
+    "PlantainCake_MissingTemp": "케이크 반죽 1개, 다크 에일 1개, 호두 2개, 갈색 설탕 2개가 필요합니다.",
+    "WFPlaintainCake_MissingTemp": "케이크 반죽 1개, 다크 에일 1개, 그램플턴 호두 2개, 갈색 설탕 2개가 필요합니다.",
+    // replace the temp messages with these once alcohol mod comes out
+    "PlantainCake_Missing": "케이크 반죽 1개, 럼 1개, 호두 2개, 갈색 설탕 2개가 필요합니다.",
+    "WFPlaintainCake_Missing": "케이크 반죽 1개, 럼 1개, 그램플턴 호두 2개, 갈색 설탕 2개가 필요합니다.",
+    
+    "FireCookie_Name": "파이어 쿠키",
+    "FireCookie_Desc": "매운 맛이 첨가된 초콜릿 쿠키! 한 번에 너무 많이 먹지 마세요.",
+    "FireCookie_Missing": "초콜릿 쿠키 반죽 1개와 초콜릿 1개가 필요합니다.",
+    
+    "AppleBread_Name": "애플 브레드",
+    "AppleBread_Desc": "사과, 계피, 호두가 들어간 부드럽게 부서지는 빵.",
+    "AppleBread_Missing": "반죽 1개, 계피 스틱 2개, 사과 2개, 호두 3개가 필요합니다.",
+    "WFAppleBread_Missing": "반죽 1개, 진저스냅 계피 스틱 2개, 앰브로시아 사과 2개, 그램플턴 호두 3개가 필요합니다.",
+    
+    "BlueberryBuckle_Name": "블루베리 버클",
+    "BlueberryBuckle_Desc": "블루베리가 들어가고 달콤한 스트루젤로 토핑된 부서지는 케이크.",
+    
+    "BlackberryBuckle_Name": "블랙베리 버클",
+    "BlackberryBuckle_Desc": "블랙베리가 들어가고 달콤한 스트루젤로 토핑된 부서지는 케이크.",
+    
+    "Buckle_Missing": "케이크 반죽 1개와 스트루젤 1개가 필요합니다.",
+    
+    "BreakfastQuiche_Name": "브랙퍼스트 키슈",
+    "BreakfastQuiche_Desc": "치즈 감자와 달걀이 파이 껍질 안에 구워진 아침식사. 훌륭한 아침 메뉴입니다.",
+    "BreakfastQuiche_Missing": "치즈 1개, 소금 1개, 양파 1개, 감자 2개가 필요합니다.",
+    
+    "CaveCarrotCake_Name": "동굴 당근 케이크",
+    "CaveCarrotCake_Desc": "채집한 뿌리로 만든 당근 케이크. 일반 당근 케이크보다 더 earthy한 맛을 가지고 있습니다.",
+    "CaveCarrotCake_Missing": "케이크 반죽 1개, 크림 치즈 1개, 피칸 2개가 필요합니다.",
+    
+    "HerbBread_Name": "허브 브레드",
+    "HerbBread_Desc": "특별한 허브로 맛을 낸 복합적인 풍미의 빵.",
+    "HerbBread_Missing": "반죽 1개, 로즈마리 1개, 오일 1개, 타임 1개가 필요합니다.",
+    "WFHerbBread_Missing": "반죽 1개, 강한 로즈마리 1개, 오일 1개, 레몬 타임 1개가 필요합니다.",
+    
+    "MonkeyBread_Name": "몽키 브레드",
+    "MonkeyBread_Desc": "달콤하고 끈적한 계피와 견과 시럽으로 덮인 떼어 먹는 빵. 아이들이 좋아합니다!",
+    "MonkeyBread_Missing": "버터 1개, 갈색 설탕 1개, 설탕 1개, 계피 스틱 2개, 피칸 2개가 필요합니다.",
+    "WFMonkeyBread_Missing": "버터 1개, 갈색 설탕 1개, 설탕 1개, 진저스냅 계피 스틱 2개, 피칸 2개가 필요합니다.",
+    
+    "VeggieQuiche_Name": "채소 키슈",
+    "VeggieQuiche_Desc": "채식주의자의 꿈 같은 아침식사. 신선한 농장 채소들이 맛있게 담겨 있습니다.",
+    "VeggieQuiche_Missing": "파이 크러스트 1개, 호박 1개, 치즈 1개, 토마토 2개, 달걀 3개가 필요합니다.",
+    
+    "ConfettiCupcake_Name": "컨페티 컵케이크",
+    "ConfettiCupcake_Desc": "스프링클이 뿌려진 바닐라 컵케이크. 숨겨진 색감이 아이들을 기쁘게 합니다.",
+    "ConfettiCupcake_Missing": "케이크 반죽 1개, 설탕 1개, 우유 1개, 바닐라 1개가 필요합니다.",
+    "WFConfettiCupcake_Missing": "케이크 반죽 1개, 설탕 1개, 우유 1개, 칼리코 바닐라 1개가 필요합니다.",
+    
+    "CaramelCupcake_Name": "카라멜 컵케이크",
+    "CaramelCupcake_Desc": "카라멜이 아이싱에 녹아 초콜릿 컵케이크와 완벽하게 조화를 이룹니다.",
+    "CaramelCupcake_Missing": "초콜릿 케이크 반죽 1개, 우유 1개, 초콜릿 1개가 필요합니다."
+}

@@ -1,0 +1,641 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                //Andy (ops 1-5)
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Andy", 1],
+                    "Value": "BakersLifeContinued_BlackberryPie BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_StrawberryCakeRoll",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Andy", 3],
+                    "Value": "BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_MushroomQuiche BakersLifeContinued_PinaColadaPie BakersLifeContinued_RaspberryCakeRoll",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Andy", 5],
+                    "Value": "BakersLifeCOntinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_LunaresPie BakersLifeContinued_StrawberryRhubarbPie",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Andy", 7],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_SugarCookies BakersLifeContinued_SugarFrostedSlime BakersLifeContinued_WheatBread",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Andy", 9],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateCookies BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_CinnamonRolls BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DevilsFoodCake BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_FigGalette BakersLifeContinued_GarlicBread BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_GingersnapCookies  BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_LemonTart BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MatchaRollCake BakersLifeContinued_MushroomQuiche BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_PinaColadaPie BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies BakersLifeContinued_SugarFrostedSlime BakersLifeContinued_UltimateWeddingCake BakersLifeContinued_WeddingCake BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                },
+                // Claire (ops 6-10)
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Claire", 1],
+                    "Value": "BakersLifeContinued_Bread BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_Macarons BakersLifeContinued_MatchaRollCake BakersLifeContinued_UltimateWeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Claire", 3],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateCookies BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LunaresPie BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_WeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Claire", 5],
+                    "Value": "BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_GingersnapCookies BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_PinaColadaPie BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Claire", 7],
+                    "Value": "BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_IrishCreamCheesecake",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Claire", 9],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_BreadRolls BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_CinnamonRolls BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DevilsFoodCake BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_FigGalette BakersLifeContinued_GarlicBread BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonTart BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MushroomQuiche BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                },
+                // Marlon (ops 16-20)
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "MarlonFay", 1],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_ApplePie BakersLifeContinued_DevilsFoodCake BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "MarlonFay", 3],
+                    "Value": "BakersLifeContinued",
+                    "Delimiter": "BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_LunaresPie BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_MushroomQuiche"
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "MarlonFay", 5],
+                    "Value": "BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_PinaColadaPie",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "MarlonFay", 7],
+                    "Value": "BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonTart",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "MarlonFay", 9],
+                    "Value": "BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateCookies BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_FigGalette BakersLifeContinued_GarlicBread BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_GingersnapCookies BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MatchaRollCake BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies BakersLifeContinued_UltimateWeddingCake BakersLifeContinued_WeddingCake BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                },
+                // Martin (ops 21-25)
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Martin", 1],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonTart BakersLifeContinued_SugarCookies",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Martin", 3],
+                    "Value": "BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LunaresPie BakersLifeContinued_RedVelvetCakeRoll",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Martin", 5],
+                    "Value": "BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_MushroomQuiche BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_PinaColadaPie BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Martin", 7],
+                    "Value": "BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_SpicedRumFruitcake",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Martin", 9],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette  BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateCookies BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_CinnamonRolls BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DevilsFoodCake BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_FigGalette BakersLifeContinued_GarlicBread BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_GingersnapCookies BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MatchaRollCake BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_UltimateWeddingCake BakersLifeContinued_WeddingCake BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                }, 
+                // Olivia (ops 26-30)
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Olivia", 1],
+                    "Value": "BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_LunaresPie BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_UltimateWeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Olivia", 3],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_DevilsFoodCake BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_FigGalette BakersLifeContinued_MatchaRollCake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_WeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Olivia", 5],
+                    "Value": "BakersLifeContinued_BlackberryPie BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_MushroomQuiche BakersLifeContinued_PinaColadaPie BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_RaspberryCakeRoll",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Olivia", 7],
+                    "Value": "BakersLifeContinued_GarlicBread BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_GingersnapCookies BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Olivia", 9],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateCookies BakersLifeContinued_CinnamonRolls BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_LemonTart BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                },
+                // Sophia
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sophia", 1],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_DevilsFoodCake BakersLifeContinued_UltimateWeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sophia", 3],
+                    "Value": "BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_BundtCake BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_LunaresPie BakersLifeContinued_MarbleBundtCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_WeddingCake BakersLifeContinued_WheatBread",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sophia", 5],
+                    "Value": "BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_MatchaRollCake BakersLifeContinued_PinaColadaPie BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sophia", 7],
+                    "Value": "BakersLifeContinued_DragonFruitLayeredCake BakersLifeContinued_GarlicBread BakersLifeContinued_LemonGingerBlueberryTart BakersLifeContinued_MangoTart BakersLifeContinued_MushroomQuiche",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sophia", 9],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryGalette BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_CarrotCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateCookies BakersLifeContinued_CinnamonRolls BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_FigGalette BakersLifeContinued_GingersnapCookies BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonCoconutCake  BakersLifeContinued_LemonTart BakersLifeContinued_Macarons BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                }, 
+                // Susan
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Susan", 1],
+                    "Value": "BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_DevilsFoodCake BakersLifeContinued_LunaresPie BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_StrawberryRhubarbPie",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Susan", 3],
+                    "Value": "BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_FigGalette BakersLifeContinued_MatchaRollCake BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SugarCookies BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Susan", 5],
+                    "Value": "BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_GarlicBread BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Susan", 7],
+                    "Value": "BakersLifeContinued_CarrotCake BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_WheatBread",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Susan", 9],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_ApplePie BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_BundtCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateCookies BakersLifeContinued_CinnamonRolls BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_GingersnapCookies BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonTart BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_MushroomQuiche BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PinaColadaPie BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_UltimateWeddingCake BakersLifeContinued_WeddingCake BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                },
+                // Victor
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Victor", 1],
+                    "Value": "BakersLifeContinued_CinnamonRolls BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_MatchaRollCake BakersLifeContinued_UltimateWeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Victor", 3],
+                    "Value": "BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_LunaresPie BakersLifeContinued_PinaColadaPie BakersLifeContinued_SugarCookies BakersLifeContinued_WeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Victor", 5],
+                    "Value": "BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_BlackberryPie BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonTart BakersLifeContinued_MangoTart BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Victor", 7],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_CarrotCake BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_MushroomQuiche BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Victor", 9],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_BundtCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateCookies BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DevilsFoodCake BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_FigGalette BakersLifeContinued_GarlicBread BakersLifeContinued_GingersnapCookies BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_Macarons BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_WheatBread",
+                    "Delimiter": " "
+                },
+                // alter wizard's gifts
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 1],
+                    "Value": "BakersLifeContinued_UltimateWeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 3],
+                    "Value": "BakersLifeContinued_WeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 7],
+                    "Value": "BakersLifeContinued_GaudyWeddingCake",
+                    "Delimiter": " "
+                }
+
+                
+            ]
+        },
+        // apples
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "HasSeenEvent": "7776001"
+            },
+            "TextOperations":[
+                // Apples
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Apples", 1],
+                    "Value": "BakersLifeContinued_MatchaRollCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Apples", 3],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_CarrotCake BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_LemonTart BakersLifeContinued_LunaresPie BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Apples", 5],
+                    "Value": "BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_DevilsFoodCake BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_SpicedRumFruitcake BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Apples", 7],
+                    "Value": "BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContined_CinnamonRolls BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_CoffeeLiqueurCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Apples", 9],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_BundtCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateCookies BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_FigGalette BakersLifeContinued_GarlicBread BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_GingersnapCookies BakersLifeContinued_LemonCoconutCake BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MushroomQuiche BakersLifeContinued_PinaColadaPie BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_SugarCookies BakersLifeContinued_UltimateWeddingCake BakersLifeContinued_WeddingCake BakersLifeContinued_WheatBread",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        // henchman
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "HasMod|contains=Aimon111.WitchSwampOverhaulCP": false,
+                "HasSeenEvent": "1337731"
+            },
+            "TextOperations":[
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Henchman", 1],
+                    "Value": "BakersLifeContinued_CinnamonRolls BakersLifeContinued_DevilsFoodCake BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Henchman", 3],
+                    "Value": "BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_LunaresPie BakersLifeContinued_MushroomQuiche BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_PinaColadaPie BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Henchman", 5],
+                    "Value": "BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryGalette BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateCookies BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_FigGalette BakersLifeContinued_GingersnapCookies BakersLifeContinued_LemonTart BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_MatchaRollCake BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies BakersLifeContinued_WeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Henchman", 7],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_UltimateWeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Henchman", 9],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_GarlicBread BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_WheatBread",
+                    "Delimiter": " "
+                },
+            ]
+        },
+        // gunther
+        {
+            "Action":"EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "HasSeenEvent": "103042015"
+            },
+            "TextOperations": [
+                // Gunther (ops 11-15)
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gunther", 1],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_CinnamonRolls BakersLifeContinued_DevilsFoodCake BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gunther", 3],
+                    "Value": "BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeCOntinued_CoffeeLiqueuerCake BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_LunaresPie BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_PinaColadaPie BakersLifeContinued_SpicedRumFruitcake",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gunther", 5],
+                    "Value": "BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemoNTart BakersLifeContinued_SaltedCaramelBrownies",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gunther", 7],
+                    "Value": "BakersLifeContinued_CarrotCake BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_MushroomQuiche",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gunther", 9],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_BundtCake  BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateCookies BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_FigGalette BakersLifeContinued_GarlicBread BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_GingersnapCookies BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MatchaRollCake BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies BakersLifeContinued_UltimateWeddingCake BakersLifeContinued_WeddingCake BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        // lance
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "HasSeenEvent": "6951319"
+            },
+            "TextOperations": [
+                // Lance (ops 21 - 25)
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Lance", 1],
+                    "Value": "BakersLifeContinued_GingersnapCookies BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonGingerBlueberryTart BakersLifeContinued_LemonTart BakersLifeContinued_PapayaLemonCheesecake BakersLifeContinued_SugarFrostedSlime BakersLifeContinued_UltimateWeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Lance", 3],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_DevilsFoodCake BakersLifeContinued_LunaresPie BakersLifeContinued_MushroomQuiche BakersLifeContinued_PinaColadaPie BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_WeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Lance", 5],
+                    "Value": "BakersLifeContinued_CinnamonRolls BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_CoffeeLiqueurCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Lance", 7],
+                    "Value": "BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Lance", 9],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_BlackberryPie BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateCookies BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_FigGalette BakersLifeContinued_GarlicBread BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_MatchaRollCake BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        // morgan
+        // don't load if any player has seen Magus' 3 heart event
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=5978924": true
+            },
+            "TextOperations": [
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Morgan", 1],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_DevilsFoodCake BakersLifeContinued_SaltedCaramelBrownies",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Morgan", 3],
+                    "Value": "BakersLifeContinued_CinnamonRolls BakersLifeContinued_LunaresPie BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Morgan", 5],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_BlackberryPie BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_MatchaRollCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Morgan", 7],
+                    "Value": "BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_PinaColadaPie BakersLifeContinued_SpicedRumFruitcake",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Morgan", 9],
+                    "Value": "BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateCookies BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_FigGalette BakersLifeContinued_GarlicBread BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_GingersnapCookies BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_LemonTart BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MushroomQuiche BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies BakersLifeContinued_UltimateWeddingCake BakersLifeContinued_WeddingCake BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        // morris
+        // don't load if seen perfection event
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=191393": false
+            },
+            "TextOperations": [
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Morris", 1],
+                    "Value": "BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_IrishCreamCheesecake",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Morris", 3],
+                    "Value": "BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_FigGalette BakersLifeContinued_LunaresPie BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_MatchaRollCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Morris", 5],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_CherryGalette BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Morris", 7],
+                    "Value": "BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_GingersnapCookies BakersLifeContinued_SpicedRumFruitcake",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Morris", 9],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateCookies BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_CinnamonRolls BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DevilsFoodCake BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_GarlicBread BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonTart BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MushroomQuiche BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_PinaColadaPie BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies BakersLifeContinued_UltimateWeddingCake BakersLifeContinued_WeddingCake BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        // scarlet
+        // load only after the 8-heart event has been viewed
+        {
+            "Action":"EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "HasSeenEvent: anyPlayer|contains=3691371": true
+            },
+            "TextOperations": [
+                {
+                    // Loves
+                    "Operation": "Append",
+                    "Target": ["Fields", "Scarlett", 1],
+                    "Value": "BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_DevilsFoodCake BakersLifeContinued_LunaresPie BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_UltimateWeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Likes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Scarlett", 3],
+                    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_FigGalette BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_WeddingCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Dislikes
+                    "Operation": "Append",
+                    "Target": ["Fields", "Scarlett", 5],
+                    "Value": "BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_GarlicBread BakersLifeContinued_MatchaRollCake BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarFrostedSlime",
+                    "Delimiter": " "
+                },
+                {
+                    // Hates
+                    "Operation": "Append",
+                    "Target": ["Fields", "Scarlett", 7],
+                    "Value": "BakersLifeContinued_ApplePie BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_PinaColadaPie BakersLifeContinued_PineappleUpsideDownCake",
+                    "Delimiter": " "
+                },
+                {
+                    // Neutrals
+                    "Operation": "Append",
+                    "Target": ["Fields", "Scarlett", 9],
+                    "Value": "BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_ChocolateCookies BakersLifeContinued_CinnamonRolls BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_GingersnapCookies BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_LemonTart BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_MushroomQuiche BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_SugarCookies BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

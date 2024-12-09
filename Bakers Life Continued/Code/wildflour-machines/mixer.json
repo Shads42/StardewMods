@@ -1,0 +1,237 @@
+{ 
+    "Changes": [
+        {
+            "LogName": "Load Baker's Mixer",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+               "(BC)Shads42.BakersLifeContinued_BakersMixer":{
+                    "OutputRules": [
+                        {
+                            "Id": "BakersLifeContinued_CakeBatter",
+                            "Triggers": [
+                                {
+                                    "Id": "OilPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)247"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_CakeBatter",
+                                    "ItemId": "(O)BakersLifeContinued_CakeBatter",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)246",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 2,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "butter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CakeBatter_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 360 
+                        },
+                        {
+                            "Id": "BakersLifeContinued_ChocolateCakeBatter",
+                            "Triggers": [
+                                {
+                                    "Id":"CocoaPodPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_CocoaPod",
+                                    "RequiredCount": 1
+                                    
+                                },
+                                {
+                                    "Id":"CocoaPodPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_cacaopod",
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id":"CocoaPodPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_rose_cacao",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_ChocolateCakeBatter",
+                                    "ItemId": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)246",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 2,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)247",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolateCakeBatter_Missing}}"
+                                    }   
+                                }
+                            ],
+                            "MinutesUntilReady": 360 
+                        },
+                        {
+                            "Id": "BakersLifeContinued_CookieDough",
+                            "Triggers": [
+                                {
+                                    "Id": "BrownSugarPlacedInMixer",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)BakersLifeContinued_BrownSugar"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_CookieDough",
+                                    "ItemId": "(O)BakersLifeContinued_CookieDough",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)246",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Salt",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CookieDough_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 180 
+                        },
+                        {
+                            "Id": "BakersLifeContinued_ChocolateCookieDough",
+                            "Triggers": [
+                                {
+                                    "Id": "SaltPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Salt"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_ChocolateCookieDough",
+                                    "ItemId": "(O)BakersLifeContinued_ChocolateCookieDough",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)246",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_CocoaPod",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocolateCookieDough_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_ChocolateCookieDough",
+                                    "ItemId": "(O)BakersLifeContinued_ChocolateCookieDough",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)246",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_cacaopod",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFChocolateCookieDough_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_ChocolateCookieDough",
+                                    "ItemId": "(O)BakersLifeContinued_ChocolateCookieDough",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)246",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_rose_cacao",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFRCChocolateCookieDough_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 180 
+                        },
+                        {
+                            "Id": "BakersLifeContinued_Dough",
+                            "Triggers": [
+                                {
+                                    "Id": "HoneyPlacedInMixer",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)340"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_Dough",
+                                    "ItemId": "(O)BakersLifeContinued_Dough",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)246",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BreadDough_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 240
+                        },
+                        {
+                            "Id": "BakersLifeContinued_PieCrust",
+                            "Triggers": [
+                                {
+                                    "Id": "ButterPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredTags": ["butter"],
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_PieCrust",
+                                    "ItemId": "(O)BakersLifeContinued_PieCrust",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)246",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Salt",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PieCrust_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 360 
+                        },
+                        {
+                            "Id": "BakersLifeContinued_GrahamCrackerCrust",
+                            "Triggers": [
+                                {
+                                    "Id": "GrahamCrackersPlacedInMixer",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)BakersLifeContinued_GrahamCrackers"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_GrahamCrackerCrust",
+                                    "ItemId": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)Cornucopia_Salt",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "butter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:GrahamCrust_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 240 
+                        },
+                        {
+                            "Id": "BakersLifeContinued_PowderedSugar",
+                            "Triggers": [
+                                {
+                                    "Id": "SugarPlacedInMixer",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)245"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_PowderedSugar",
+                                    "ItemId": "(O)BakersLifeContinued_PowderedSugar",
+                                }
+                            ],
+                            "MinutesUntilReady": 240 
+                        }
+                    ]
+                }
+                
+            }
+        }
+    ]
+}
