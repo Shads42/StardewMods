@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "KimchiMakerContinued_KimchiString": "{{i18n:Kimchi_Flavored}}"
+            }
+        }
+    ]
+}

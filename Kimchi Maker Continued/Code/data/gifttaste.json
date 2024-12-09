@@ -1,0 +1,320 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add universal neutral",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add individual gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                // love
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 1],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                // like 
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gus", 3],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 3],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jodi", 3],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Robin", 3],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 3],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 3],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Linus", 3],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 3],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                // dislike
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Alex", 5],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dwarf", 5],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 5],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 5],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pierre", 5],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pam", 5],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },  {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Elliott", 5],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                }, {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 5],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                // hate
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 7],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                }, 
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 7],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 7],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 7],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 7],
+                    "Value": "KimchiMakerContinued_Kimchi KimchiMakerContinued_KimchiTunaStew KimchiMakerContinued_KimchiFriedRice",
+                    "Delimiter": " "
+                },
+            ]
+        },
+        {
+            "LogName": "Add extra univeral gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "Enable Extra Kimchi": true
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add extra individual gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "When": {
+                "Enable Extra Kimchi": true
+            },
+            "TextOperations": [
+                // love
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 1],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                // like 
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gus", 3],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 3],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jodi", 3],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Robin", 3],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 3],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 3],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Linus", 3],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 3],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                // dislike
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Alex", 5],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dwarf", 5],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 5],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 5],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pierre", 5],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pam", 5],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },  
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Elliott", 5],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                }, 
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 5],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                // hate
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 7],
+                   "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                }, 
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 7],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 7],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 7],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 7],
+                    "Value": "KimchiMakerContinued_Kkakdugi KimchiMakerContinued_OiSobagi KimchiMakerContinued_PaKimchi KimchiMakerContinued_BaekKimchi KimchiMakerContinued_DandelionKimchi",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "Name": "KimchiMakerContinued",
+    "Author": "Shads42",
+    "Description": "A rewrite of KimchiMaker by deffiliation to work with Content Patcher",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "4.1.6",
+    "UniqueID": "Shads42.KimchiMakerContinued",
+    "UpdateKeys": ["Nexus: 29559"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "selph.ExtraMachineConfig",
+            "MinimumVersion": "1.11.0",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "MinimumVersion": "1.14.0",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "Cornucopia.MoreCrops",
+            "MinimumVersion": "1.5.5",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "Cornucopia.ArtisanMachines",
+            "MinimumVersion": "1.0.7",
+            "IsRequired": true
+        }
+     ]
+}

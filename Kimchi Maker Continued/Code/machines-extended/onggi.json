@@ -1,0 +1,213 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)Shads42.KimchiMakerContinued_Onggi": {
+                    "OutputRules": [
+                        {
+                            "Id": "KimchiMakerContinued_Kkakdugi",
+                            "Triggers": [
+                                {
+                                    "Id": "ShrimpPlacedInMachine",
+                                    "RequiredItemId": "(O)720",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "KimchiMakerContinued_Kkakdugi",
+                                    "ItemId": "(O)KimchiMakerContinued_Kkakdugi",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "Cornucopia_ChiliPowder",
+                                        "selph.ExtraMachineConfig.RequiredCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "Cornucopia_Salt",
+                                        "selph.ExtraMachineConfig.RequiredCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "Cornucopia_Daikon",
+                                        "selph.ExtraMachineConfig.RequiredCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)248",
+                                        "selph.ExtraMachineConfig.RequiredCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Kkakdugi_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 7200
+                        }, 
+                        {
+                            "Id": "KimchiMakerContinued_OiSobagi",
+                            "Triggers": [
+                                {
+                                    "Id": "CucumberPlacedInMachine",
+                                    "RequiredItemId": "Cornucopia_Cucumber",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "KimchiMakerContinued_OiSobagi",
+                                    "ItemId": "(O)KimchiMakerContinued_OiSobagi",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "Cornucopia_ChiliPowder",
+                                        "selph.ExtraMachineConfig.RequiredCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "Cornucopia_Salt",
+                                        "selph.ExtraMachineConfig.RequiredCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)720",
+                                        "selph.ExtraMachineConfig.RequiredCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Kkakdugi_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 7200
+                        }, 
+                        {
+                            "Id": "KimchiMakerContinued_PaKimchi",
+                            "Triggers": [
+                                {
+                                    "Id": "SpringOnionPlacedInMachine",
+                                    "RequiredItemId": "(O)399",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "KimchiMakerContinued_PaKimchi",
+                                    "ItemId": "(O)KimchiMakerContinued_PaKimchi",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "Cornucopia_ChiliPowder",
+                                        "selph.ExtraMachineConfig.RequiredCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "Cornucopia_Salt",
+                                        "selph.ExtraMachineConfig.RequiredCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)248",
+                                        "selph.ExtraMachineConfig.RequiredCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)129",
+                                        "selph.ExtraMachineConfig.RequiredCount.4": 2,
+                                        "selph.ExtraMachineConfig.RequirementId.5": "(O)829",
+                                        "selph.ExtraMachineConfig.RequiredCount.5": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Kkakdugi_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 7200
+                        }, 
+                        {
+                            "Id": "KimchiMakerContinued_DandelionKimchi",
+                            "Triggers": [
+                                {
+                                    "Id": "DandelionPlacedInMachine",
+                                    "RequiredItemId": "(O)22",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "KimchiMakerContinued_DandelionKimchi",
+                                    "ItemId": "(O)KimchiMakerContinued_DandelionKimchi",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "Cornucopia_ChiliPowder",
+                                        "selph.ExtraMachineConfig.RequiredCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)720",
+                                        "selph.ExtraMachineConfig.RequiredCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)829",
+                                        "selph.ExtraMachineConfig.RequiredCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)248",
+                                        "selph.ExtraMachineConfig.RequiredCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.5": "Cornucopia_Salt",
+                                        "selph.ExtraMachineConfig.RequiredCount.5": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Kkakdugi_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 7200
+                        },
+                        {
+                            "Id": "KimchiMakerContinued_BaekKimchi",
+                            "Triggers": [
+                                {
+                                    "Id": "CabbagePlacedInMachine",
+                                    "RequiredItemId": "Cornucopia_Cabbage",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "KimchiMakerContinued_BaekKimchi",
+                                    "ItemId": "(O)KimchiMakerContinued_BaekKimchi",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)399",
+                                        "selph.ExtraMachineConfig.RequiredCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "Cornucopia_Salt",
+                                        "selph.ExtraMachineConfig.RequiredCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "Cornucopia_Daikon",
+                                        "selph.ExtraMachineConfig.RequiredCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)248",
+                                        "selph.ExtraMachineConfig.RequiredCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Kkakdugi_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 7200
+                        },
+                        {
+                            "Id": "KimchiMakerContinued_Kimchi",
+                            "Triggers": [
+                                {
+                                    "Id": "VegetablePlacedInMachine",
+                                    "RequiredTags": [
+                                        "category_vegetable",
+                                        "!no_kimchi"
+                                    ],
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "VegetablePlacedInMachine",
+                                    "RequiredItemId": -75,
+                                    "RequiredTags": [
+                                        "!no_kimchi"
+                                    ],
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredCount": 1
+                                }
+                                
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "Kimchi_Default",
+                                    "ItemId": "KimchiMakerContinued_Kimchi",
+                                    "ObjectInternalName": "{0} KimchiMakerContinued_Kimchi",
+                                    "ObjectDisplayName": "[LocalizedText Strings/Objects:KimchiMakerContinued_KimchiString %PRESERVED_DISPLAY_NAME]",
+                                    "PreserveId": "DROP_IN",
+									"CopyPrice": true,
+                                    "PriceModifiers": [
+                                        {
+                                            "Id": "KimchiMakerContinued_Kimchi",
+                                            "Modification": "Add",
+                                            "Amount": 145
+                                        },
+                                        {
+                                            "Id": "KimchiMakerContinued_Kimchi",
+                                            "Modification": "Multiply",
+                                            "Amount": 2.16
+                                        }
+                                    ],
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)260",
+                                        "selph.ExtraMachineConfig.RequiredCount.1": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Kimchi_Missing}}" 
+                                    }
+                                }   
+                            ],
+                            "MinutesUntilReady": 7200
+                        }   
+                    ]
+                }
+            }
+        }
+    ]
+}

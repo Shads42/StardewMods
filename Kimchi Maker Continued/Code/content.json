@@ -1,0 +1,32 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Enable Extra Kimchi": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Descripition": "Adds extra types of kimchi to be made with the onggi"
+        }
+    },
+    "Changes": [
+        {
+            "LogName": "Load spritesheets",
+            "Action": "Load",
+            "Target": "Shads42.KimchiMakerContinued/machines, Shads42.KimchiMakerContinued/objects",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load default pack data",
+            "Action": "Include",
+            "FromFile": "data/objects.json, data/strings.json, data/contexttags.json, data/bigcraftables.json, data/gifttaste.json, data/shops.json, data/recipes.json, machines/onggi.json"
+        },
+        {
+            "LogName": "Load extra pack data",
+            "Action": "Include",
+            "When": {
+                "Enable Extra Kimchi": true,
+                "HasMod | contains=Cornucopia.MoreCrops": true
+            },   
+            "FromFile": "machines-extended/onggi.json"
+        }
+    ]
+}
