@@ -1,0 +1,325 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Recipe Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "KimchiMakerContinued_KimchiTunaStew": {
+                    "Name": "KimchiMakerContinued_KimchiTunaStew",
+                    "SpriteIndex": 0,
+                    "DisplayName": "{{i18n:KimchiStew_Name}}",
+                    "Description": "{{i18n:KimchiStew_Desc}}",
+                    "Texture": "Shads42.KimchiMakerContinued/Objects",
+                    "Price": 350,
+                    "Edibility": 72,
+                    "IsDrink": true,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "ContextTags": [
+                        "kimchi_recipe",
+                        "color_red"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 480,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }   
+                    ]
+                },
+                "KimchiMakerContinued_KimchiFriedRice": {
+                    "Name": "KimchiMakerContinued_KimchiFriedRice",
+                    "SpriteIndex": 1,
+                    "DisplayName": "{{i18n:KimchiRice_Name}}",
+                    "Description": "{{i18n:KimchiRice_Desc}}",
+                    "Texture": "Shads42.KimchiMakerContinued/Objects",
+                    "Price": 300,
+                    "Edibility": 64,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "ContextTags": [
+                        "kimchi_recipe",
+                        "color_red"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 480,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 1
+                            }
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "LogName": "Add artisan good objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "KimchiMakerContinued_Kimchi": {
+                    "Name": "KimchiMakerContinued_Kimchi",
+                    "SpriteIndex": 2,
+                    "DisplayName": "{{i18n:Kimchi_Name}}",
+                    "Description": "{{i18n:Kimchi_Desc}}",
+                    "Texture": "Shads42.KimchiMakerContinued/Objects",
+                    "Price": 145,
+                    "Edibility": 50,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "kimchi_object",
+                        "color_red"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "add extra kimchi objects",
+            "Action": "EditData",
+            "When": {
+                "Enable Extra Kimchi": true
+            },
+            "Target": "Data/Objects",
+            "Entries": {
+                "KimchiMakerContinued_Kkakdugi": {
+                    "Name": "KimchiMakerContinued_Kkakdugi",
+                    "SpriteIndex": 3,
+                    "DisplayName": "{{i18n:Kkakdugi_Name}}",
+                    "Descripition": "{{i18n:Kkakdugi_Desc}}",
+                    "Texture": "Shads42.KimchiMakerContinued/Objects",
+                    "Price": 1262,
+                    "Edibility": 61, 
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "kimchi_object",
+                        "color_red"
+                    ],
+                   "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 1,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },    
+                "KimchiMakerContinued_OiSobagi": {
+                    "Name": "KimchiMakerContinued_OiSobagi",
+                    "SpriteIndex": 4,
+                    "DisplayName": "{{i18n:Oisobagi_Name}}",
+                    "Descripition": "{{i18n:Oisobagi_Desc}}",
+                    "Texture": "Shads42.KimchiMakerContinued/Objects",
+                    "Price": 1450,
+                    "Edibility": 66,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "kimchi_object",
+                        "color_red"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 1,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },    
+                "KimchiMakerContinued_PaKimchi": {
+                    "Name": "KimchiMakerContinued_PaKimchi",
+                    "SpriteIndex": 5,
+                    "DisplayName": "{{i18n:PaKimchi_Name}}",
+                    "Descripition": "{{i18n:PaKimchi_Desc}}",
+                    "Texture": "Shads42.KimchiMakerContinued/Objects",
+                    "Price": 1577,
+                    "Edibility": 62,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "kimchi_object",
+                        "color_red"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 1,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },   
+                "KimchiMakerContinued_BaekKimchi": {
+                    "Name": "KimchiMakerContinued_BaekKimchi",
+                    "SpriteIndex": 6,
+                    "DisplayName": "{{i18n:BaekKimchi_Name}}",
+                    "Descripition": "{{i18n:BaekKimchi_Desc}}",
+                    "Texture": "Shads42.KimchiMakerContinued/Objects",
+                    "Price": 1328,
+                    "Edibility": 55,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "kimchi_object",
+                        "color_white"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 1,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },  
+                "KimchiMakerContinued_DandelionKimchi": {
+                    "Name": "KimchiMakerContinued_DandelionKimchi",
+                    "SpriteIndex": 7,
+                    "DisplayName": "{{i18n:DandelionKimchi_Name}}",
+                    "Descripition": "{{i18n:DandelionKimchi_Desc}}",
+                    "Texture": "Shads42.KimchiMakerContinued/Objects",
+                    "Price": 1653,
+                    "Edibility": 70,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "kimchi_object",
+                        "color_red"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 1,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                } 
+            }
+        }   
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)Shads42.KimchiMakerContinued_Onggi": {
+                    "OutputRules": [
+                        {
+                            "Id": "KimchiMakerContinued_Kimchi",
+                            "Triggers": [
+                                {
+                                    "Id": "VegetablePlacedInMachine",
+                                    "RequiredTags": [
+                                        "category_vegetable",
+                                        "!no_kimchi"
+                                    ],
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "VegetablePlacedInMachine",
+                                    "RequiredItemId": -75,
+                                    "RequiredTags": [
+                                        "!no_kimchi"
+                                    ],
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredCount": 1
+                                }
+                                
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "Kimchi_Default",
+                                    "ItemId": "KimchiMakerContinued_Kimchi",
+                                    "ObjectInternalName": "{0} KimchiMakerContinued_Kimchi",
+                                    "ObjectDisplayName": "[LocalizedText Strings/Objects:KimchiMakerContinued_KimchiString %PRESERVED_DISPLAY_NAME]",
+                                    "PreserveId": "DROP_IN",
+									"CopyPrice": true,
+                                    "PriceModifiers": [
+                                        {
+                                            "Id": "KimchiMakerContinued_Kimchi",
+                                            "Modification": "Add",
+                                            "Amount": 145
+                                        },
+                                        {
+                                            "Id": "KimchiMakerContinued_Kimchi",
+                                            "Modification": "Multiply",
+                                            "Amount": 2.16
+                                        }
+                                    ],
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)260",
+                                        "selph.ExtraMachineConfig.RequiredCount.1": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Kimchi_Missing}}" 
+                                    }
+                                }   
+                            ],
+                            "MinutesUntilReady": 7200
+                        }
+                            
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Changes": [
+        // add machine to big craftables
+        {
+            "LogName": "Add onggi to Big Craftables",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "Shads42.KimchiMakerContinued_Onggi": {
+                    "Name": "Onggi",
+                    "DisplayName": "{{i18n:Crock_Name}}",
+                    "Descripition": "{{i18n:Crock_Desc}}",
+                    "Texture": "Shads42.KimchiMakerContinued//machines",
+                    "SpriteIndex": 0,
+                    "IsLamp": false
+                }
+            }
+        },
+        // add machine to crafting recipes
+        {
+            "LogName": "Add onggi recipe to crafting recipes",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Shads42.KimchiMakerContinued_Onggi": "330 20 709 10 726 1/Home/Shads42.KimchiMakerContinued_Onggi/true/null"
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "Changes": [
+        {   
+            "LogName": "Add tag to unmilled rice to prevent kimchi",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": ["271", "ContextTags"],
+            "Entries": {
+                "#-1": "no_kimchi"
+            }
+        },
+        {
+            "LogName": "Add tag to wheat to prevent kimchi",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": ["262", "ContextTags"],
+            "Entries": {
+                "#-1": "no_kimchi"
+            }
+        },
+        {
+            "LogName": "Add tag to cucumber for no kimchi",
+            "Action": "EditData",
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "Enable Extra Kimchi": true
+            },
+            "Target": "Data/Objects",
+            "TargetField": ["Cornucopia_Cucumber", "ContextTags"],
+            "Entries": {
+                "#-1": "no_kimchi"
+            }
+            
+        },
+        {
+            "LogName": "Add tag to cabbage for no kimchi",
+            "Action": "EditData",
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "Enable Extra Kimchi": true
+            },
+            "Target": "Data/Objects",
+            "TargetField": ["Cornucopia_Cabbage", "ContextTags"],
+            "Entries": {
+                "#-1": "no_kimchi"
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "KimchiStew_Name": "Kimchi Tuna Stew",
+    "KimchiStew_Desc": "A spicy bowl of stew made from kimchi and tuna. Smells pungent.",
+    "KimchiRice_Name": "Kimchi Fried Rice",
+    "KimchiRice_Desc": "A staple kimchi dish served with an egg on top.",
+    "Crock_Name": "Onggi",
+    "Crock_Desc": "Turns vegetables into kimchi.",
+    "Kimchi_Name": "Kimchi",
+    "Kimchi_Flavored": "{0} Kimchi",
+    "Kimchi_Desc": "Spicy fermented goodness.",
+    "Kimchi_Missing": "Requires 2 hot peppers",
+    // extra kimchi 
+    "Kkakdugi_Name": "Kkakdugi",
+    "Kkakdugi_Desc": "Kimchi made with cubed radish rather than cabbage. It's seasoned with fermented shirmp.",
+    "Kkakdugi_Missing": "Requires 1 Daikon, 1 Chili Powder, 1 Garlic, and 1 Salt",
+    "OiSobagi_Name": "Oi-Sobagi",
+    "OiSobagi_Desc": "Cucumber kimchi seasoned with seafood and chili paste. It's popular in spring and summer.",
+    "OiSobagi_Missing": "Requires 1 Shrimp, 1 Chili Powder, and 1 Salt",
+    "PaKimchi_Name": "Pa-Kimchi",
+    "PaKimchi_Desc": "Kimchi made with spring onions. The green tops are spicier than expected.",
+    "PaKimchi_Missing": "Requires 2 Anchovies, 1 Salt, 1 Ginger, 1 Chili Powder, and 1 Garlic",
+    "BaekKimchi_Name": "Baek-Kimchi",
+    "BaekKimchi_Desc": "All of the fermentation with none of the spice.",
+    "BaekKimchi_Missing": "Requires 1 Daikon, 1 Spring onion, 1 Salt, and 1 Garlic",
+    "DandelionKimchi_Name": "Dandelion Kimchi",
+    "DandelionKimchi_Desc": "A more modern variant of kimchi that replaces the cabbage with dandelion greens.",
+    "DandelionKimchi_Missing": "Requires 1 Salt, 1 Garlic, 1 Shrimp, 1 Ginger, and 1 Chili Powder" 
+}

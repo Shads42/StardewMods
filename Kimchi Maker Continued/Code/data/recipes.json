@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load cooking recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "KimchiMakerContinued_KimchiTunaStew": "KimchiMakerContinued_Kimchi 1 130 1/9999 9999/KimchiMakerContinued_KimchiTunaStew/null",
+                "KimchiMakerContinued_KimchiFriedRice": "KimchiMakerContinued_Kimchi 1 423 1 -5 1 247 1/9999 9999/KimchiMakerContinued_KimchiFriedRice/null"
+            }
+        }
+    ]
+}
