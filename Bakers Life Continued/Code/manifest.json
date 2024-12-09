@@ -1,0 +1,56 @@
+{
+    "Name": "Baker's Life Continued",
+    "Author": "Shads42",
+    "Descripition": "A rewrite of A Baker's Life by Ritsunesan to work with Cornucopia and Content Patcher",
+    "Version": "2.0.1",
+    "MinimumApiVersion": "4.1.6",
+    "UniqueID": "Shads42.BakersLifeContinued",
+    "UpdateKeys": ["Nexus: 27221"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "Cornucopia.MoreCrops",
+            "MinimumVersion": "1.5.5",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "Cornucopia.MoreFlowers",
+            "MinimumVersion": "1.5.3",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "Cornucopia.ArtisanMachines",
+            "MinimumVersion": "1.0.7",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "selph.ExtraMachineConfig",
+            "MinimumVersion": "1.11.0",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "MinimumVersion": "1.14.0",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "wildflour.ateliercrops",
+            "MinimumVersion": "1.0.8",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "MinimumVersion": "1.15.4",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Rafseazz.RSVCP",
+            "MinimumVersion": "2.5.16",
+            "IsRequired": false
+        }
+
+    ]
+
+}

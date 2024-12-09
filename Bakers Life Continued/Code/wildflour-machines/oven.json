@@ -1,0 +1,2244 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Wildflour Recipes to Oven",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)Shads42.BakersLifeContinued_BakersOven": {
+                    "OutputRules": [
+                        // add artisan goods items
+                        {
+                            "Id": "BakersLifeContinued_BlueberryAlmondMousseCake",
+                            "Triggers": [
+                                {
+                                    "Id": "WFAlmondPlacedInMixer",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_almond",
+                                    "RequirementCount": 1
+                                },
+                                {
+                                    "Id": "AlmondPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Almond",
+                                    "RequirementCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_BlueberryAlmondMousseCake",
+                                    "ItemId": "(O)BakersLifeContinued_BlueberryAlmondMousseCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)258",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 10,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)724",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlueberryMousseCake_Missing}}" 
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_DragonfruitLayeredCake",
+                            "Triggers": [
+                                {
+                                    "Id": "CoconutButterPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_CoconutButter",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_DragonfruitLayeredCake",
+                                    "ItemId" : "(O)BakersLifeContinued_DragonfruitLayeredCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Raspberry",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_DragonFruit",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DragonfruitCake_Missing}}" 
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_DragonfruitLayeredCake",
+                                    "ItemId": "(O)BakersLifeContinued_DragonfruitLayeredCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.aterlier",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_DragonFruit",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFDragonfruitCake_Missing}}" 
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_GaudyWeddingCake",
+                            "Triggers": [
+                                {
+                                    "Id": "GoldBarPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)336",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_GaudyWeddingCake",
+                                    "ItemId" : "(O)BakersLifeContinued_GaudyWeddingCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)BakersLifeContinued_Chocolate",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)284",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:GaudyWeddingCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 1680
+                        },
+                        {
+                            "Id": "BakersLifeContinued_MangoTart",
+                            "Triggers": [
+                                {
+                                    "Id": "YogurtPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_PlainYogurt",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_MangoTart",
+                                    "ItemId" : "(O)BakersLifeContinued_MangoTart",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_OrangeZest",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)834",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MangoTart_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_MangoTart",
+                                    "ItemId" : "(O)BakersLifeContinued_MangoTart",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_OrangeZest",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)wildflour.ateliercrops_mango",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFMangoTart_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 420
+                        },
+                        {
+                            "Id": "BakersLifeContinued_MatchaRollCake",
+                            "Triggers": [
+                                {
+                                    "Id": "AdzukiPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_AdzukiBean",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_MatchaRollCake",
+                                    "ItemId" : "(O)BakersLifeContinued_MatchaRollCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_PowderedSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)815",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.4": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 4,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MatchaRollCkae_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 840
+                        },
+                        {
+                            "Id": "BakersLifeContinued_SugarFrostedSlime",
+                            "Triggers": [
+                                {
+                                    "Id": "SlimePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)766",
+                                    "RequiredCount": 13
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_SugarFrostedSlime",
+                                    "ItemId" : "(O)BakersLifeContinued_SugarFrostedSlime",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PowderedSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Honeysuckle",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  3,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)74",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarFrostedSlime_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 1680
+                        },
+                        {
+                            "Id": "BakersLifeContinued_BaklavaCookieBars",
+                            "Triggers": [
+                                {
+                                    "Id": "OrangeZestPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_OrangeZest",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_BaklavaCookieBars",
+                                    "ItemId" : "(O)BakersLifeContinued_BaklavaCookieBars",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CookieDough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Pecan",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_Almond",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)340",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Baklava_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_BaklavaCookieBars",
+                                    "ItemId" : "(O)BakersLifeContinued_BaklavaCookieBars",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CookieDough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Pecan",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_almond",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)340",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFBaklava_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_EarlGreyBlueberryTart",
+                            "Triggers": [
+                                {
+                                    "Id": "TeaLeavesInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)815",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_EarlGreyBlueberryTart",
+                                    "ItemId" : "(O)BakersLifeContinued_EarlGreyBlueberryTart",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_DragonFruit",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_LemonZest",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)724",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.5": "(O)258",
+                                        "selph.ExtraMachineConfig.RequirementCount.5": 5,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:EarlGreyTart_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 420
+                        },
+                        // add alcohol items
+                        {
+                            "Id": "BakersLifeContinued_BourbonCreamCheeseBrownies",
+                            "Triggers": [
+                                {
+                                    "Id": "BourbonPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_DarkAle",  // change this to bourbon when Cornucopia Alcohol comes out
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_BourbonCreamCheeseBrownies",
+                                    "ItemId" : "(O)BakersLifeContinued_BourbonCreamCheeseBrownies",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)BakersLifeContinued_PowderedSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BourbonBrownies_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 480
+                        },
+                        {
+                            "Id": "BakersLifeContinued_CoffeeLiqueurCake",
+                            "Triggers": [
+                                {
+                                    "Id": "CoffeeLiqueurPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)303", // change this to Coffee Liqueur when Cornucopia Alcohol comes out
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_CoffeeLiqueurCake",
+                                    "ItemId" : "(O)BakersLifeContinued_CoffeeLiqueurCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_PowderedSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 5,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)395",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)Cornucopia_Vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeLiqueurCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_CoffeeLiqueurCake",
+                                    "ItemId" : "(O)BakersLifeContinued_CoffeeLiqueurCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_PowderedSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 5,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)395",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)wildflour.ateliercrops_vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFCoffeeLiqueurCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_MargaritaTresLechesCake",
+                            "Triggers": [
+                                {
+                                    "Id": "MargaritaPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)459", // replace this with margarita once alcohol mod comes out
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_MargaritaTresLechesCake",
+                                    "ItemId" : "(O)BakersLifeContinued_MargaritaTresLechesCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Lime",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_Vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)186",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 3,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MargaritaCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_MargaritaTresLechesCake",
+                                    "ItemId" : "(O)BakersLifeContinued_MargaritaTresLechesCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_lime",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)186",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 3,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFMargaritaCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 660
+                        },
+                        {
+                            "Id": "BakersLifeContinued_IrishCreamCheesecake",
+                            "Triggers": [
+                                {
+                                    "Id": "IrishCoffeePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)395",     // change to irish coffee once Cornucopia
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_IrishCreamCheesecake",
+                                    "ItemId" : "(O)BakersLifeContinued_IrishCreamCheesecake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_CinnamonSticks",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)303",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.5": "(O)186",
+                                        "selph.ExtraMachineConfig.RequirementCount.5": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:IrishCheesecake_MissingTemp}}" // change when irish coffee gets added
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_IrishCreamCheesecake",
+                                    "ItemId" : "(O)BakersLifeContinued_IrishCreamCheesecake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_cinnamon",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)303",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.5": "(O)186",
+                                        "selph.ExtraMachineConfig.RequirementCount.5": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFIrishCheesecake_MissingTemp}}" // change when irish coffee gets added
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 1080
+                        },
+                        {
+                            "Id": "BakersLifeContinued_PinaColadaPie",
+                            "Triggers": [
+                                {
+                                    "Id": "PinaColadaInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)873",     
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_PinaColadaPie",
+                                    "ItemId" : "(O)BakersLifeContinued_PinaColadaPie",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)88",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 2,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)832",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.5": "(O)638",
+                                        "selph.ExtraMachineConfig.RequirementCount.5": 3,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PinaColadaPie_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_PinaColadaPie",
+                                    "ItemId" : "(O)BakersLifeContinued_PinaColadaPie",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)88",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 2,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)832",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.5": "(O)wildflour.ateliercrops_cherry",
+                                        "selph.ExtraMachineConfig.RequirementCount.5": 3,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFPinaColadaPie_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_SpicedRumFruitcake",
+                            "Triggers": [
+                                {
+                                    "Id": "RumPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)BakersLifeContinued_BrownSugar",  // change to rum once Cornucopia Brewery comes out
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_SpicedRumFruitcake",
+                                    "ItemId" : "(O)BakersLifeContinued_SpicedRumFruitcake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_DarkAle",    // change to Brown Sugar once Alcohol mod comes out 
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_Walnut",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 3,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)638",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 2,
+                                        "selph.ExtraMachineConfig.RequirementId.5": "(O)834",
+                                        "selph.ExtraMachineConfig.RequirementCount.5": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RumFruitcake_MissingTemp}}" // change once cornucopia alcohol mod comes out 
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_SpicedRumFruitcake",
+                                    "ItemId" : "(O)BakersLifeContinued_SpicedRumFruitcake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_DarkAle",    // change to Brown Sugar once Alcohol mod comes out 
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_walnut",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 3,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)wildflour.ateliercrops_cherry",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 2,
+                                        "selph.ExtraMachineConfig.RequirementId.5": "(O)wildflour.ateliercrops_mango",
+                                        "selph.ExtraMachineConfig.RequirementCount.5": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFRumFruitcake_MissingTemp}}" // change once cornucopia alcohol mod comes out 
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_AngelFoodCake",
+                            "Triggers": [
+                                {
+                                    "Id": "SolarEssenceInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)768",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_AngelFoodCake",
+                                    "ItemId" : "(O)BakersLifeContinued_AngelFoodCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:AngelCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 770
+                        },
+                        {
+                            "Id": "BakersLifeContinued_BirthdayCake",
+                            "Triggers": [
+                                {
+                                    "Id": "TulipPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)591",
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_BirthdayCake",
+                                    "ItemId" : "(O)BakersLifeContinued_BirthdayCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)406",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  3,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)259",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 3,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)376",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 3,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BirthdayCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_BirthdayCake",
+                                    "ItemId" : "(O)BakersLifeContinued_BirthdayCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_sugar_plum",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  3,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)259",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 3,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)376",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 3,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFBirthdayCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_BundtCake",
+                            "Triggers": [
+                                {
+                                    "Id": "CakeMixInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)BakersLifeContinued_CakeBatter",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_BundtCake",
+                                    "ItemId" : "(O)BakersLifeContinued_BundtCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementTags.1": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 4,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BundtCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_BundtCake",
+                                    "ItemId" : "(O)BakersLifeContinued_BundtCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementTags.1": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 4,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFBundtCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_CarrotCake",
+                            "Triggers": [
+                                {
+                                    "Id": "CarrotInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Carrot",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_CarrotCake",
+                                    "ItemId" : "(O)BakersLifeContinued_CarrotCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)BakersLifeContinued_BrownSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)Cornucopia_Pecan",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 3,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CarrotCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_ConfettiCakeRoll",
+                            "Triggers": [
+                                {
+                                    "Id": "MinersTreatPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)243",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_ConfettiCakeRoll",
+                                    "ItemId" : "(O)BakersLifeContinued_ConfettiCakeRoll",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)442",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  3,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ConfettiRCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 840
+                        },
+                        {
+                            "Id": "BakersLifeContinued_LemonCoconutCake",
+                            "Triggers": [
+                                {
+                                    "Id": "CoconutPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)88",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_LemonCoconutCake",
+                                    "ItemId" : "(O)BakersLifeContinued_LemonCoconutCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_Lemon",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 3,
+                                        "selph.ExtraMachineConfig.RequirementTags.4": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 5,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonCoconutCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_LemonCoconutCake",
+                                    "ItemId" : "(O)BakersLifeContinued_LemonCoconutCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_lemon",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 3,
+                                        "selph.ExtraMachineConfig.RequirementTags.4": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 5,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFLemonCoconutCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720 
+                        },
+                        {
+                            "Id": "BakersLifeContinued_OtherworldlyBirthdayCake",
+                            "Triggers": [
+                                {
+                                    "Id": "StarShardsInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)578",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_OtherworldlyBirthdayCake",
+                                    "ItemId" : "(O)BakersLifeContinued_OtherworldlyBirthdayCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_RoseSpring",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:OtherBirthdayCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 720
+                        },
+                        
+                        {
+                            "Id": "BakersLifeContinued_PineappleUpsideDownCake",
+                            "Triggers": [
+                                {
+                                    "Id": "PineapplePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)832",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_PineappleUpsideDownCake",
+                                    "ItemId" : "(O)BakersLifeContinued_PineappleUpsideDownCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_BrownSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)638",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 8,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PineappleCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_PineappleUpsideDownCake",
+                                    "ItemId" : "(O)BakersLifeContinued_PineappleUpsideDownCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_BrownSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_cherry",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 8,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFPineappleCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_PumpkinBundtCake",
+                            "Triggers": [
+                                {
+                                    "Id": "PumpkinPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)276",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_PumpkinBundtCake",
+                                    "ItemId" : "(O)BakersLifeContinued_PumpkinBundtCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Pecan",
+                                        "selph.ExtraMachineConfig.RequirementCount.2":  2,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)724",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PumpkinBundtCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_RaspberryCakeRoll",
+                            "Triggers": [
+                                {
+                                    "Id": "PowderedSugarPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)BakersLifeContinued_PowderedSugar",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_RaspberryCakeRoll",
+                                    "ItemId" : "(O)BakersLifeContinued_RaspberryCakeRoll",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)186",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 3,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)Cornucopia_Raspberry",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 3,
+                                        "selph.ExtraMachineConfig.RequirementTags.5": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.5": 6,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RaspberryRCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_RaspberryCakeRoll",
+                                    "ItemId" : "(O)BakersLifeContinued_RaspberryCakeRoll",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)186",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 3,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)wildflour.ateliercrops_raspberry",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 3,
+                                        "selph.ExtraMachineConfig.RequirementTags.5": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.5": 6,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFRaspberryRCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 840
+                        },                       
+                        {
+                            "Id": "BakersLifeContinued_SpongeCake",
+                            "Triggers": [
+                                {
+                                    "Id": "StrawberryPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)400",
+                                    "RequiredCount": 5
+                                },
+                                {
+                                    "Id": "WildStrawberryPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_strawberry",
+                                    "RequiredCount": 5
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_SpongeCake",
+                                    "ItemId" : "(O)BakersLifeContinued_SpongeCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "butter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SpongeCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 660
+                        },
+                        {
+                            "Id": "BakersLifeContinued_StrawberryCakeRoll",
+                            "Triggers": [
+                                {
+                                    "Id": "LargeEggPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredTags": ["item_large_egg"],
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_StrawberryCakeRoll",
+                                    "ItemId" : "(O)BakersLifeContinued_StrawberryCakeRoll",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)400",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:StrawberryRCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_StrawberryCakeRoll",
+                                    "ItemId" : "(O)BakersLifeContinued_StrawberryCakeRoll",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_strawberry",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFStrawberryRCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 840
+                        },             
+                        {
+                            "Id": "BakersLifeContinued_UltimateBirthdayCake",
+                            "Triggers": [
+                                {
+                                    "Id": "PrismaticShardInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)74",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_UltimateBirthdayCake",
+                                    "ItemId" : "(O)BakersLifeContinued_UltimateBirthdayCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)243",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:UltimateBirthdayCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 1680
+                        },
+                        {
+                            "Id": "BakersLifeContinued_UltimateWeddingCake",
+                            "Triggers": [
+                                {
+                                    "Id": "RoseInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Rose",
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_UltimateWeddingCake",
+                                    "ItemId" : "(O)BakersLifeContinued_UltimateWeddingCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_RoseSpring",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 2,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_RoseSummer",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 2,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)Cornucopia_RoseFall",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 2,
+                                        "selph.ExtraMachineConfig.RequirementId.5": "(O)Cornucopia_RoseWinter",
+                                        "selph.ExtraMachineConfig.RequirementCount.5": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:UltimateWeddingCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 1680
+                        },
+                        {
+                            "Id": "BakersLifeContinued_WeddingCake",
+                            "Triggers": [
+                                {
+                                    "Id": "VioletPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Violet",
+                                    "RequiredCount": 4
+                                },
+                                {
+                                    "Id": "WFVioletPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_violet",
+                                    "RequiredCount": 4
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_WeddingCake",
+                                    "ItemId" : "(O)BakersLifeContinued_WeddingCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WeddingCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_WeddingCake",
+                                    "ItemId" : "(O)BakersLifeContinued_WeddingCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFWeddingCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 1680
+                        },
+                        {
+                            "Id": "BakersLifeContinued_ChocolateBundtCake",
+                            "Triggers": [
+                                {
+                                    "Id": "SalmonberriesPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)296",
+                                    "RequiredCount": 10
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_ChocolateBundtCake",
+                                    "ItemId" : "(O)BakersLifeContinued_ChocolateBundtCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 4,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocoBundtCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_ChocolateSpongeCake",
+                            "Triggers": [
+                                {
+                                    "Id": "RaspberriesPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Raspberry",
+                                    "RequiredCount": 5
+                                },
+                                {
+                                    "Id": "WildRaspberriesPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_raspberry",
+                                    "RequiredCount": 5
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_ChocolateSpongeCake",
+                                    "ItemId" : "(O)BakersLifeContinued_ChocolateSpongeCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)410",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 5,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocoSpongeCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 660
+                        },
+                        {
+                            "Id": "BakersLifeContinued_DevilsFoodCake",
+                            "Triggers": [
+                                {
+                                    "Id": "VoidEssencePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)769",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_DevilsFoodCake",
+                                    "ItemId" : "(O)BakersLifeContinued_DevilsFoodCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "butter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:DevilsFoodCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 660
+                        },
+                        {
+                            "Id": "BakersLifeContinued_MarbleBundtCake",
+                            "Triggers": [
+                                {
+                                    "Id": "SmallWhiteEggInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)176",
+                                    "RequiredCount": 4
+                                },
+                                {
+                                    "Id": "SmallBrownEggInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)180",
+                                    "RequiredCount": 4
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_MarbleBundtCake",
+                                    "ItemId" : "(O)BakersLifeContinued_MarbleBundtCake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)BakersLifeContinued_Chocolate",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MarbleBundtCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_RedVelvetCakeRoll",
+                            "Triggers": [
+                                {
+                                    "Id": "BeetPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)284",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_RedVelvetCakeRoll",
+                                    "ItemId" : "(O)BakersLifeContinued_RedVelvetCakeRoll",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_CocoaPod",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RedVelvetRCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_RedVelvetCakeRoll",
+                                    "ItemId" : "(O)BakersLifeContinued_RedVelvetCakeRoll",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_cacaopod",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFCRedVelvetRCake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_RedVelvetCakeRoll",
+                                    "ItemId" : "(O)BakersLifeContinued_RedVelvetCakeRoll",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_rose_cacao",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFRCRedVelvetRCake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 840
+                        },
+                        {
+                            "Id": "BakersLifeContinued_SaltedCaramelBrownies",
+                            "Triggers": [
+                                {
+                                    "Id": "CaramelInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)BakersLifeContinued_Caramel",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_SaltedCaramelBrownies",
+                                    "ItemId" : "(O)BakersLifeContinued_SaltedCaramelBrownies",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_ChocolateCakeBatter",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 5,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_Salt",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CaramelBrownies_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_ChocolateCookies",
+                            "Triggers": [
+                                {
+                                    "Id": "ChocolateCookieDoughInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)BakersLifeContinued_ChocolateCookieDough",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_ChocolateCookies",
+                                    "ItemId" : "(O)BakersLifeContinued_ChocolateCookies",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "butter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocoCookies_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_CheckerboardCookies",
+                            "Triggers": [
+                                {
+                                    "Id": "VanillaPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Vanilla",
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "CalicoVanillaInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_vanilla",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_CheckerboardCookies",
+                                    "ItemId" : "(O)BakersLifeContinued_CheckerboardCookies",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CookieDough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_Chocolate",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CheckerCookie_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_ChocolateChipCookies",
+                            "Triggers": [
+                                {
+                                    "Id": "CookieDoughInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)BakersLifeContinued_CookieDough",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_ChocolateChipCookies",
+                                    "ItemId" : "(O)BakersLifeContinued_ChocolateChipCookies",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_Chocolate",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "butter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ChocoChipCookie_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_GingersnapCookies",
+                            "Triggers": [
+                                {
+                                    "Id": "MolassesPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Molasses",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_GingersnapCookies",
+                                    "ItemId" : "(O)BakersLifeContinued_GingersnapCookies",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CookieDough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_BrownSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)829",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)Cornucopia_CinnamonSticks",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Gingersnap_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_GingersnapCookies",
+                                    "ItemId" : "(O)BakersLifeContinued_GingersnapCookies",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CookieDough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_BrownSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)829",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)wildflour.ateliercrops_cinnamon",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFGingersnap_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_Macarons",
+                            "Triggers": [
+                                {
+                                    "Id": "DuckEggPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)442",
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_Macarons",
+                                    "ItemId" : "(O)BakersLifeContinued_Macarons",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CookieDough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Almond",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Macaron_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_Macarons",
+                                    "ItemId" : "(O)BakersLifeContinued_Macarons",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CookieDough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_almond",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFMacaron_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_ShortbreadCookies",
+                            "Triggers": [
+                                {
+                                    "Id": "JellyPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)344",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_ShortbreadCookies",
+                                    "ItemId" : "(O)BakersLifeContinued_ShortbreadCookies",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CookieDough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "butter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Shortbread_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_SugarCookies",
+                            "Triggers": [
+                                {
+                                    "Id": "SugarPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)245",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_SugarCookies",
+                                    "ItemId" : "(O)BakersLifeContinued_SugarCookies",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_CookieDough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "butter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:SugarCookie_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_BananaBread",
+                            "Triggers": [
+                                {
+                                    "Id": "WalnutPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Walnut",
+                                    "RequiredCount": 3
+                                },
+                                {
+                                    "Id": "WalnutPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_walnut",
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_BananaBread",
+                                    "ItemId" : "(O)BakersLifeContinued_BananaBread",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_Dough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)91",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BananaBread_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_BananaBread",
+                                    "ItemId" : "(O)BakersLifeContinued_BananaBread",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_Dough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_banana",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFBananaBread_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_Bread",
+                            "Triggers": [
+                                {
+                                    "Id": "DoughPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)BakersLifeContinued_Dough",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_Bread",
+                                    "ItemId" : "(O)BakersLifeContinued_Bread",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)Cornucopia_Salt",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Bread_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 960
+                        },
+                        {
+                            "Id": "BakersLifeContinued_BreadRolls",
+                            "Triggers": [
+                                {
+                                    "Id": "WheatPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)262",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_BreadRolls",
+                                    "ItemId" : "(O)BakersLifeContinued_BreadRolls",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_Dough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "butter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Rolls_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 960
+                        },
+                        {
+                            "Id": "BakersLifeContinued_CinnamonRolls",
+                            "Triggers": [
+                                {
+                                    "Id": "CinnamonPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_CinnamonSticks",
+                                    "RequiredCount": 2
+                                },
+                                {
+                                    "Id": "CinnamonPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_cinnamon",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_CinnamonRolls",
+                                    "ItemId" : "(O)BakersLifeContinued_CinnamonRolls",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_Dough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_BrownSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CinnamonRolls_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 480
+                        },
+                        {
+                            "Id": "BakersLifeContinued_GarlicBread",
+                            "Triggers": [
+                                {
+                                    "Id": "GarlicPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)248",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_GarlicBread",
+                                    "ItemId" : "(O)BakersLifeContinued_GarlicBread",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_Dough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "butter",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_Parsley",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)424",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:GarlicBread_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_WheatBread",
+                            "Triggers": [
+                                {
+                                    "Id": "SunflowerSeedsPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)431",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_WheatBread",
+                                    "ItemId" : "(O)BakersLifeContinued_WheatBread",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_Dough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WheatBread_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 960
+                        },
+                        {
+                            "Id": "BakersLifeContinued_ZucchiniBread",
+                            "Triggers": [
+                                {
+                                    "Id": "ZucchiniPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Zucchini",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_ZucchiniBread",
+                                    "ItemId" : "(O)BakersLifeContinued_ZucchiniBread",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_Dough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_BrownSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_CinnamonSticks",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ZucchiniBread_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_ZucchiniBread",
+                                    "ItemId" : "(O)BakersLifeContinued_ZucchiniBread",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_Dough",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_BrownSugar",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_cinnamon",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFZucchiniBread_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 360
+                        },
+                        {
+                            "Id": "BakersLifeContinued_CoffeeCheesecake",
+                            "Triggers": [
+                                {
+                                    "Id": "GrahamCrustPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_CoffeeCheesecake",
+                                    "ItemId" : "(O)BakersLifeContinued_CoffeeCheesecake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)395",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_Vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:CoffeeCheesecake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_CoffeeCheesecake",
+                                    "ItemId" : "(O)BakersLifeContinued_CoffeeCheesecake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)395",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_vanilla",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFCoffeeCheesecake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 1080
+                        },
+                        {
+                            "Id": "BakersLifeContinued_LemonGingerBlueberryCheesecake",
+                            "Triggers": [
+                                {
+                                    "Id": "LemonZestInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_LemonZest",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_LemonGingerBlueberryCheesecake",
+                                    "ItemId" : "(O)BakersLifeContinued_LemonGingerBlueberryCheesecake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)258",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 5,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)829",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonGingerCheesecake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 1080
+                        },
+                        {
+                            "Id": "BakersLifeContinued_PapayaLimeCheesecake",
+                            "Triggers": [
+                                {
+                                    "Id": "PapayaPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Papaya",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_PapayaLimeCheesecake",
+                                    "ItemId" : "(O)BakersLifeContinued_PapayaLimeCheesecake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)BakersLifeContinued_CreamCheese",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_LimeZest",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)724",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PapayaCheesecake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 1080
+                        },
+                        {
+                            "Id": "BakersLifeContinued_PeachThymeCheesecake",
+                            "Triggers": [
+                                {
+                                    "Id": "ThymePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Thyme",
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "ThymePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_thyme",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_PeachThymeCheesecake",
+                                    "ItemId" : "(O)BakersLifeContinued_PeachThymeCheesecake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)426",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)636",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PeachCheesecake_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_PeachThymeCheesecake",
+                                    "ItemId" : "(O)BakersLifeContinued_PeachThymeCheesecake",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_GrahamCrackerCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)426",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.4": "(O)wildflour.ateliercrops_peach",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:PeachCheesecake_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 1080
+                        },{
+                            "Id": "BakersLifeContinued_ApplePie",
+                            "Triggers": [
+                                {
+                                    "Id": "ApplePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)613",
+                                    "RequiredCount": 5
+                                },
+                                {
+                                    "Id": "ApplePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_apple",
+                                    "RequiredCount": 5
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_ApplePie",
+                                    "ItemId" : "(O)BakersLifeContinued_ApplePie",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_CinnamonSticks",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:ApplePie_Missing}}"
+                                    }
+                                },
+                                {
+                                    "Id": "BakersLifeContinued_ApplePie",
+                                    "ItemId" : "(O)BakersLifeContinued_ApplePie",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)wildflour.ateliercrops_cinnamon",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFApplePie_Missing}}"
+                                    }
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_BananaCreamPie",
+                            "Triggers": [
+                                {
+                                    "Id": "BananaPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)91",
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "BananaPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_banana",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_BananaCreamPie",
+                                    "ItemId" : "(O)BakersLifeContinued_BananaCreamPie",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)186",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BananaCreamPie_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_BlackberryPie",
+                            "Triggers": [
+                                {
+                                    "Id": "BlackberriesPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)410",
+                                    "RequiredCount": 20
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_BlackberryPie",
+                                    "ItemId" : "(O)BakersLifeContinued_BlackberryPie",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_LemonZest",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:BlackberryPie_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_BlueberryGalette",
+                            "Triggers": [
+                                {
+                                    "Id": "BlueberryPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)258",
+                                    "RequiredCount": 10
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_BlueberryGalette",
+                                    "ItemId" : "(O)BakersLifeContinued_BlueberryGalette",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Gallete_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 420
+                        },
+                        {
+                            "Id": "BakersLifeContinued_CherryGalette",
+                            "Triggers": [
+                                {
+                                    "Id": "CherryPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)638",
+                                    "RequiredCount": 10
+                                },
+                                {
+                                    "Id": "CherryPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_cherry",
+                                    "RequiredCount": 10
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_CherryGalette",
+                                    "ItemId" : "(O)BakersLifeContinued_CherryGalette",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Gallete_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 420
+                        },
+                        {
+                            "Id": "BakersLifeContinued_FigGalette",
+                            "Triggers": [
+                                {
+                                    "Id": "FigPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Fig",
+                                    "RequiredCount": 10
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_FigGalette",
+                                    "ItemId" : "(O)BakersLifeContinued_FigGalette",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Gallete_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 420
+                        },
+                        
+                        {
+                            "Id": "BakersLifeContinued_KeyLimePie",
+                            "Triggers": [
+                                {
+                                    "Id": "LimePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Lime",
+                                    "RequiredCount": 4
+                                },
+                                {
+                                    "Id": "LimePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_lime",
+                                    "RequiredCount": 4
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_KeyLimePie",
+                                    "ItemId" : "(O)BakersLifeContinued_KeyLimePie",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)186",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:KeyLimePie_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_LemonTart",
+                            "Triggers": [
+                                {
+                                    "Id": "LemonPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)Cornucopia_Lemon",
+                                    "RequiredCount": 2
+                                },
+                                {
+                                    "Id": "LemonPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_lemon",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_LemonTart",
+                                    "ItemId" : "(O)BakersLifeContinued_LemonTart",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.2": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LemonTart_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 420
+                        },
+                        
+                        {
+                            "Id": "BakersLifeContinued_LunaresPie",
+                            "Triggers": [
+                                {
+                                    "Id": "GrapePlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)398",
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_LunaresPie",
+                                    "ItemId" : "(O)BakersLifeContinued_LunaresPie",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)276",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 3,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)724",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:LunaresPie_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 720
+                        },
+                        {
+                            "Id": "BakersLifeContinued_MushroomQuiche",
+                            "Triggers": [
+                                {
+                                    "Id": "MushroomsPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)404",
+                                    "RequiredCount": 6
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_MushroomQuiche",
+                                    "ItemId" : "(O)BakersLifeContinued_MushroomQuiche",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Spinach",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 5,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)424",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementTags.4": "item_large_egg",
+                                        "selph.ExtraMachineConfig.RequirementCount.4": 6,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:MushroomQuiche_Missing}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 480
+                        },
+                        {
+                            "Id": "BakersLifeContinued_StrawberryRhubarbPie",
+                            "Triggers": [
+                                {
+                                    "Id": "RhubarbPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)252",
+                                    "RequiredCount": 5
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "BakersLifeContinued_StrawberryRhubarbPie",
+                                    "ItemId" : "(O)BakersLifeContinued_StrawberryRhubarbPie",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)400",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 4,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:RhubarbPie_Missing}}"
+                                    }
+                                },
+                                
+                                {
+                                    "Id": "BakersLifeContinued_StrawberryRhubarbPie",
+                                    "ItemId" : "(O)BakersLifeContinued_StrawberryRhubarbPie",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)BakersLifeContinued_PieCrust",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O)wildflour.ateliercrops_strawberry",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 4,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:WFRhubarbPie_Missing}}"
+                                    }
+                                }
+                            ],
+                            
+                            "UseFirstValidOutput": true,
+                            "MinutesUntilReady": 720
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

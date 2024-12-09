@@ -1,0 +1,1376 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Mixer Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_CakeBatter": {
+                    "Name": "BakersLifeContinued_CakeBatter",
+					"SpriteIndex": 0,
+					"DisplayName": "{{i18n:CakeBatter_Name}}",
+					"Description": "{{i18n:CakeBatter_Description}}",
+					"Texture": "Shads42.BakersLifeContinued/Objects",
+					"Price": 489,
+					"Edibility": 5,
+					"ContextTags": [
+						"color_brown",
+						"batter_item",
+                        "bakers_item"
+					],
+					"Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_CookieDough": {
+                    "Name": "BakersLifeContinued_CookieDough",
+                    "SpriteIndex": 1,
+                    "DisplayName": "{{i18n:CookieDough_Name}}",
+                    "Description": "{{i18n:CookieDough_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 650,
+					"Edibility": 10,
+					"ContextTags": [
+						"color_brown",
+                        "bakers_item",
+                        "batter_item"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_ChocolateCakeBatter": {
+                    "Name": "BakersLifeContinued_ChocolateCakeBatter",
+                    "SpriteIndex": 2,
+                    "DisplayName": "{{i18n:ChocolateCakeBatter_Name}}",
+                    "Description": "{{i18n:ChocolateCakeBatter_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 358,
+					"Edibility": 5,
+					"ContextTags": [
+						"color_brown",
+                        "bakers_item",
+                        "batter_item"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_ChocolateCookieDough": {
+                    "Name": "BakersLifeContinued_ChocolateCookieDough",
+                    "SpriteIndex": 3,
+                    "DisplayName": "{{i18n:ChocolateCookieDough_Name}}",
+                    "Description": "{{i18n:ChocolateCookieDough_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 293,
+					"Edibility": 10,
+					"ContextTags": [
+						"color_brown",
+                        "bakers_item",
+                        "batter_item"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_Dough": {
+                    "Name": "BakersLifeContinued_Dough",
+                    "SpriteIndex": 4,
+                    "DisplayName": "{{i18n:BreadDough_Name}}",
+                    "Description": "{{i18n:BreadDough_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 449,
+					"Edibility": 10,
+					"ContextTags": [
+						"color_brown",
+                        "bakers_item",
+                        "batter_item"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_PieCrust": {
+                    "Name": "BakersLifeContinued_PieCrust",
+                    "SpriteIndex": 5,
+                    "DisplayName": "{{i18n:PieCrust_Name}}",
+                    "Description": "{{i18n:PieCrust_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 423,
+					"Edibility": 10,
+					"ContextTags": [
+						"color_brown",
+                        "bakers_item",
+                        "batter_item"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_GrahamCrackerCrust": {
+                    "Name": "BakersLifeContinued_GrahamCrackerCrust",
+                    "SpriteIndex": 6,
+                    "DisplayName": "{{i18n:GrahamCrust_Name}}",
+                    "Description": "{{i18n:GrahamCrust_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 878,
+					"Edibility": 20,
+					"ContextTags": [
+						"color_brown",
+                        "bakers_item"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_PowderedSugar": {
+                    "Name": "BakersLifeContinued_PowderedSugar",
+                    "SpriteIndex": 7,
+                    "DisplayName": "{{i18n:PowderedSugar_Name}}",
+                    "Description": "{{i18n:PowderedSugar_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 15,
+					"Edibility": 80,
+					"ContextTags": [
+						"color_white",
+                        "bakers_item"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                }
+            }
+        },
+        {
+            "LogName": "Add Artisan Good Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_BlueberryAlmondMousseCake": {
+                    "Name": "BakersLifeContinued_BlueberryAlmondMousseCake",
+                    "SpriteIndex": 14,
+                    "DisplayName": "{{i18n:BlueberryMousseCake_Name}}",
+                    "Description": "{{i18n:BlueberryMousseCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2280,
+					"Edibility": 51,
+					"ContextTags": [
+						"color_cream",
+                        "bakers_item",
+                        "cake_item"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_DragonfruitLayeredCake": {
+                    "Name": "BakersLifeContinued_DragonfruitLayeredCake",
+                    "SpriteIndex": 15,
+                    "DisplayName": "{{i18n:DragonfruitCake_Name}}",
+                    "Description": "{{i18n:DragonfruitCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1664,
+					"Edibility": 83,
+					"ContextTags": [
+						"color_pink",
+                        "bakers_item",
+                        "cake_item"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_GaudyWeddingCake": {
+                    "Name": "BakersLifeContinued_GaudyWeddingCake",
+                    "SpriteIndex": 16,
+                    "DisplayName": "{{i18n:GaudyWeddingCake_Name}}",
+                    "Description": "{{i18n:GaudyWeddingCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2818,
+					"Edibility": 200,
+					"ContextTags": [
+						"color_yellow",
+                        "bakers_item",
+                        "cake_item",
+                        "marriage_universal_dislike"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_MangoTart": {
+                    "Name": "BakersLifeContinued_MangoTart",
+                    "SpriteIndex": 17,
+                    "DisplayName": "{{i18n:MangoTart_Name}}",
+                    "Description": "{{i18n:MangoTart_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1103,
+					"Edibility": 65,
+					"ContextTags": [
+						"color_orange",
+                        "bakers_item",
+                        "pie_item"
+					],
+                    "Type": "Basic",
+					"Category": -26
+                },
+                "BakersLifeContinued_MatchaRollCake":
+                {
+                    "Name": "BakersLifeContinued_MatchaRollCake",
+                    "SpriteIndex": 18,
+                    "DisplayName": "{{i18n:MatchaRollCake_Name}}",
+                    "Description": "{{i18n:MatchaRollCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1598,
+                    "Edibility": 64,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "color_green",
+                        "cake_item"
+                    ]
+                },
+                "BakersLifeContinued_SugarFrostedSlime": {
+                    "Name": "BakersLifeContinued_SugarFrostedSlime",
+                    "SpriteIndex": 19,
+                    "DisplayName": "{{i18n:SugarFrostedSlime_Name}}",
+                    "Description": "{{i18n:SugarFrostedSlime_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 3107,
+                    "Edibility": 200,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "color_grey",
+                        "misc_dessert_item"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Alcohol Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_BourbonCreamCheeseBrownies": {
+                    "Name": "BakersLifeContinued_BourbonCreamCheeseBrownies",
+                    "SpriteIndex": 20,
+                    "DisplayName": "{{i18n:BourbonBrownies_Name}}",
+                    "Description": "{{i18n:BourbonBrownies_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1025,
+                    "Edibility": 53,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "alcohol_dessert_item",
+                        "brownie_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_CoffeeLiqueurCake": {
+                    "Name": "BakersLifeContinued_CoffeeLiqueurCake",
+                    "SpriteIndex": 21,
+                    "DisplayName": "{{i18n:CoffeeLiqueurCake_Name}}",
+                    "Description": "{{i18n:CoffeeLiqueurCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2065,
+                    "Edibility": 45,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "alcohol_dessert_item",
+                        "cake_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_MargaritaTresLechesCake": {
+                    "Name": "BakersLifeContinued_MargaritaTresLechesCake",
+                    "SpriteIndex": 22,
+                    "DisplayName": "{{i18n:MargaritaCake_Name}}",
+                    "Description": "{{i18n:MargaritaCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2418,
+                    "Edibility": 60,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "alcohol_dessert_item",
+                        "cake_item",
+                        "color_white"
+                    ]
+                },
+                "BakersLifeContinued_IrishCreamCheesecake": {
+                    "Name": "BakersLifeContinued_IrishCreamCheesecake",
+                    "SpriteIndex": 23,
+                    "DisplayName": "{{i18n:IrishCheesecake_Name}}",
+                    "Description": "{{i18n:IrishCheesecake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2750,
+                    "Edibility": 93,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "alcohol_dessert_item",
+                        "cheesecake_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_PinaColadaPie": {
+                    "Name": "BakersLifeContinued_PinaColadaPie",
+                    "SpriteIndex": 24,
+                    "DisplayName": "{{i18n:PinaColadaPie_Name}}",
+                    "Description": "{{i18n:PinaColadaPie_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 3170,
+                    "Edibility": 80,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "alcohol_dessert_item",
+                        "pie_item",
+                        "color_yellow"
+                    ]
+                },
+                "BakersLifeContinued_SpicedRumFruitcake": {
+                    "Name": "BakersLifeContinued_SpicedRumFruitcake",
+                    "SpriteIndex": 25,
+                    "DisplayName": "{{i18n:RumFruitcake_Name}}",
+                    "Description": "{{i18n:RumFruitcake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2275,
+                    "Edibility": 106,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "alcohol_dessert_item",
+                        "cake_item",
+                        "color_brown"                        
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Other Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_BaklavaCookieBars": {
+                    "Name": "BakersLifeContinued_BaklavaCookieBars",
+                    "SpriteIndex": 26,
+                    "DisplayName": "{{i18n:Baklava_Name}}",
+                    "Description": "{{i18n:Baklava_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1385,
+                    "Edibility": 60,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cookie_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_EarlGreyBlueberryTart": {
+                    "Name": "BakersLifeContinued_EarlGreyBlueberryTart",
+                    "SpriteIndex": 27,
+                    "DisplayName": "{{i18n:EarlGreyTart_Name}}",
+                    "Description": "{{i18n:EarlGreyTart_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1792,
+                    "Edibility": 78,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "pie_item",
+                        "color_blue"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Vanilla Cake Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_AngelFoodCake": {
+                    "Name": "BakersLifeContinued_AngelFoodCake",
+                    "SpriteIndex": 28,
+                    "DisplayName": "{{i18n:AngelCake_Name}}",
+                    "Description": "{{i18n:AngelCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 777,
+                    "Edibility": 77,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_white"
+                    ]
+                },
+                "BakersLifeContinued_BirthdayCake": {
+                    "Name": "BakersLifeContinued_BirthdayCake",
+                    "SpriteIndex": 29,
+                    "DisplayName": "{{i18n:BirthdayCake_Name}}",
+                    "Description": "{{i18n:BirthdayCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1326,
+                    "Edibility": 115,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_white",
+                        "npc_universal_like"
+                    ]
+                },
+                "BakersLifeContinued_BundtCake": {
+                    "Name": "BakersLifeContinued_BundtCake",
+                    "SpriteIndex": 30,
+                    "DisplayName": "{{i18n:BundtCake_Name}}",
+                    "Description": "{{i18n:BundtCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1242,
+                    "Edibility": 92,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_CarrotCake": {
+                    "Name": "BakersLifeContinued_CarrotCake",
+                    "SpriteIndex": 31,
+                    "DisplayName": "{{i18n:CarrotCake_Name}}",
+                    "Description": "{{i18n:CarrotCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1729,
+                    "Edibility": 95,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_orange"
+                    ]
+                },
+                "BakersLifeContinued_ConfettiCakeRoll": {
+                    "Name": "BakersLifeContinued_ConfettiCakeRoll",
+                    "SpriteIndex": 32,
+                    "DisplayName": "{{i18n:ConfettiRCake_Name}}",
+                    "Description": "{{i18n:ConfettiRCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 3485,
+                    "Edibility": 112,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_white"
+                    ]
+                },
+                "BakersLifeContinued_LemonCoconutCake": {
+                    "Name": "BakersLifeContinued_LemonCoconutCake",
+                    "SpriteIndex": 33,
+                    "DisplayName": "{{i18n:LemonCoconutCake_Name}}",
+                    "Description": "{{i18n:LemonCoconutCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1625,
+                    "Edibility": 92,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_yellow"
+                    ]
+                },
+                "BakersLifeContinued_OtherworldlyBirthdayCake": {
+                    "Name": "BakersLifeContinued_OtherworldlyBirthdayCake",
+                    "SpriteIndex": 34,
+                    "DisplayName": "{{i18n:OtherBirthdayCake_Name}}",
+                    "Description": "{{i18n:OtherBirthdayCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1495,
+                    "Edibility": 100,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_blue",
+                        "npc_universal_love"
+                    ]
+                },
+                "BakersLifeContinued_PineappleUpsideDownCake": {
+                    "Name": "BakersLifeContinued_PineappleUpsideDownCake",
+                    "SpriteIndex": 35,
+                    "DisplayName": "{{i18n:PineappleCake_Name}}",
+                    "Description": "{{i18n:PineappleCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2170,
+                    "Edibility": 100,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_yellow"
+                    ]
+                },
+                "BakersLifeContinued_PumpkinBundtCake": {
+                    "Name": "BakersLifeContinued_PumpkinBundtCake",
+                    "SpriteIndex": 36,
+                    "DisplayName": "{{i18n:PumpkinBundtCake_Name}}",
+                    "Description": "{{i18n:PumpkinBundtCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1905,
+                    "Edibility": 95,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_orange"
+                    ]
+                },
+                "BakersLifeContinued_RaspberryCakeRoll": {
+                    "Name": "BakersLifeContinued_RaspberryCakeRoll",
+                    "SpriteIndex": 37,
+                    "DisplayName": "{{i18n:RaspberryRCake_Name}}",
+                    "Description": "{{i18n:RaspberryRCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2150,
+                    "Edibility": 59,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_white"
+                    ]
+                },
+                "BakersLifeContinued_SpongeCake": {
+                    "Name": "BakersLifeContinued_SpongeCake",
+                    "SpriteIndex": 38,
+                    "DisplayName": "{{i18n:SpongeCake_Name}}",
+                    "Description": "{{i18n:SpongeCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1495,
+                    "Edibility": 81,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_white"
+                    ]
+                },
+                "BakersLifeContinued_StrawberryCakeRoll": {
+                    "Name": "BakersLifeContinued_StrawberryCakeRoll",
+                    "SpriteIndex": 39,
+                    "DisplayName": "{{i18n:StrawberryRCake_Name}}",
+                    "Description": "{{i18n:StrawberryRCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1326,
+                    "Edibility": 83,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_pink"
+                    ]
+                },
+                "BakersLifeContinued_UltimateBirthdayCake": {
+                    "Name": "BakersLifeContinued_UltimateBirthdayCake",
+                    "SpriteIndex": 40,
+                    "DisplayName": "{{i18n:UltimateBirthdayCake_Name}}",
+                    "Description": "{{i18n:UltimateBirthdayCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 3510,
+                    "Edibility": 200,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "bakers_universal_love",
+                        "color_white"
+                    ]
+                },
+                "BakersLifeContinued_UltimateWeddingCake": {
+                    "Name": "BakersLifeContinued_UltimateWeddingCake",
+                    "SpriteIndex": 42,
+                    "DisplayName": "{{i18n:UltimateWeddingCake_Name}}",
+                    "Description": "{{i18n:UltimateWeddingCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 3150,
+                    "Edibility": 200,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "marriage_universal_love",
+                        "color_white"
+                    ]
+                },
+                "BakersLifeContinued_WeddingCake": {
+                    "Name": "BakersLifeContinued_WeddingCake",
+                    "SpriteIndex": 43,
+                    "DisplayName": "{{i18n:WeddingCake_Name}}",
+                    "Description": "{{i18n:WeddingCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 982,
+                    "Edibility": 115,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "marriage_universal_like",
+                        "color_purple"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Chocolate Cake Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_ChocolateBundtCake": {
+                    "Name": "BakersLifeContinued_ChocolateBundtCake",
+                    "SpriteIndex": 56,
+                    "DisplayName": "{{i18n:ChocoBundtCake_Name}}",
+                    "Description": "{{i18n:ChocoBundtCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 917,
+                    "Edibility": 98,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "color_brown",
+                        "chocolate_cake_item"
+                    ]
+                },
+                "BakersLifeContinued_ChocolateSpongeCake": {
+                    "Name": "BakersLifeContinued_ChocolateSpongeCake",
+                    "SpriteIndex": 57,
+                    "DisplayName": "{{i18n:ChocoSpongeCake_Name}}",
+                    "Description": "{{i18n:ChocoSpongeCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 917,
+                    "Edibility": 98,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "chocolate_cake_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_DevilsFoodCake": {
+                    "Name": "BakersLifeContinued_DevilsFoodCake",
+                    "SpriteIndex": 58,
+                    "DisplayName": "{{i18n:DevilsFoodCake_Name}}",
+                    "Description": "{{i18n:DevilsFoodCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 666,
+                    "Edibility": 66,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "chocolate_cake_item",
+                        "cake_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_MarbleBundtCake": {
+                    "Name": "BakersLifeContinued_MarbleBundtCake",
+                    "SpriteIndex": 59,
+                    "DisplayName": "{{i18n:MarbleBundtCake_Name}}",
+                    "Description": "{{i18n:MarbleBundtCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1671,
+                    "Edibility": 102,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cake_item",
+                        "chocolate_cake_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_RedVelvetCakeRoll": {
+                    "Name": "BakersLifeContinued_RedVelvetCakeRoll",
+                    "SpriteIndex": 60,
+                    "DisplayName": "{{i18n:RedVelvetRCake_Name}}",
+                    "Description": "{{i18n:RedVelvetRCake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 962,
+                    "Edibility": 102,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "chocolate_cake_item",
+                        "cake_item",
+                        "color_red"
+                    ]
+                },
+                "BakersLifeContinued_SaltedCaramelBrownies": {
+                    "Name": "BakersLifeContinued_SaltedCaramelBrownies",
+                    "SpriteIndex": 61,
+                    "DisplayName": "{{i18n:CaramelBrownies_Name}}",
+                    "Description": "{{i18n:CaramelBrownies_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2431,
+                    "Edibility": 88,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "chocolate_cake_item",
+                        "color_brown"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Chocolate Cookie Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_ChocolateCookies": {
+                    "Name": "BakersLifeContinued_ChocolateCookies",
+                    "SpriteIndex": 70,
+                    "DisplayName": "{{i18n:ChocoCookies_Name}}",
+                    "Description": "{{i18n:ChocoCookies_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1151,
+                    "Edibility": 60,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cookie_item",
+                        "chocolate_cookie_item",
+                        "color_brown"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Cookie Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_CheckerboardCookies": {
+                    "Name": "BakersLifeContinued_CheckerboardCookies",
+                    "SpriteIndex": 84,
+                    "DisplayName": "{{i18n:CheckerCookie_Name}}",
+                    "Description": "{{i18n:CheckerCookie_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1476,
+                    "Edibility": 78,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cookie_item",
+                        "chocolate_cookie_item",
+                        "color_yellow"
+                    ]
+                },
+                
+                "BakersLifeContinued_ChocolateChipCookies": {
+                    "Name": "BakersLifeContinued_ChocolateChipCookies",
+                    "SpriteIndex": 85,
+                    "DisplayName": "{{i18n:ChocoChipCookie_Name}}",
+                    "Description": "{{i18n:ChocoChipCookie_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1508,
+                    "Edibility": 50,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": 
+                    [
+                        "bakers_item",
+                        "cookie_item",
+                        "color_tan"
+                    ]
+                },
+                "BakersLifeContinued_GingersnapCookies": {
+                    "Name": "BakersLifeContinued_GingersnapCookies",
+                    "SpriteIndex": 86,
+                    "DisplayName": "{{i18n:Gingersnap_Name}}",
+                    "Description": "{{i18n:Gingersnap_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1885,
+                    "Edibility": 50,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "cookie_item",
+                        "color_item"
+                    ]
+                },
+                "BakersLifeContinued_Macarons": {
+                    "Name": "BakersLifeContinued_Macarons",
+                    "SpriteIndex": 87,
+                    "DisplayName": "{{i18n:Macaron_Name}}",
+                    "Description": "{{i18n:Macaron_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1138,
+                    "Edibility": 90,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "cookie_item",
+                        "color_rainbow"
+                    ]
+                },
+                "BakersLifeContinued_ShortbreadCookies": {
+                    "Name": "BakersLifeContinued_ShortbreadCookies",
+                    "SpriteIndex": 88,
+                    "DisplayName": "{{i18n:Shortbread_Name}}",
+                    "Description": "{{i18n:Shortbread_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1225,
+                    "Edibility": 55,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "cookie_item",
+                        "color_white"
+                    ]
+                },
+                "BakersLifeContinued_SugarCookies": {
+                    "Name": "BakersLifeContinued_SugarCookies",
+                    "SpriteIndex": 89,
+                    "DisplayName": "{{i18n:SugarCookie_Name}}",
+                    "Description": "{{i18n:SugarCookie_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 943,
+                    "Edibility": 78,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "cookie_item",
+                        "color_white"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Dough Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_BananaBread": {
+                    "Name": "BakersLifeContinued_BananaBread",
+                    "SpriteIndex": 98,
+                    "DisplayName": "{{i18n:BananaBread_Name}}",
+                    "Description": "{{i18n:BananaBread_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1131,
+                    "Edibility": 40,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "bread_item",
+                        "color_yellow"
+                    ]
+                },
+                "BakersLifeContinued_Bread": {
+                    "Name": "BakersLifeContinued_Bread",
+                    "SpriteIndex": 99,
+                    "DisplayName": "{{i18n:Bread_Name}}",
+                    "Description": "{{i18n:Bread_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 514,
+                    "Edibility": 30,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "bread_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_BreadRolls": {
+                    "Name": "BakersLifeContinued_Bread Rolls",
+                    "SpriteIndex": 100,
+                    "DisplayName": "{{i18n:Rolls_Name}}",
+                    "Description": "{{i18n:Rolls_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 709,
+                    "Edibility": 30,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "bread_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_CinnamonRolls": {
+                    "Name": "BakersLifeContinued_CinnamonRolls",
+                    "SpriteIndex": 101,
+                    "DisplayName": "{{i18n:CinnamonRolls_Name}}",
+                    "Description": "{{i18n:CinnamonRolls_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1333,
+                    "Edibility": 80,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "bread_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_GarlicBread": {
+                    "Name": "BakersLifeContinued_GarlicBread",
+                    "SpriteIndex": 102,
+                    "DisplayName": "{{i18n:GarlicBread_Name}}",
+                    "Description": "{{i18n:GarlicBread_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1270,
+                    "Edibility": 40,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "bread_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_WheatBread": {
+                    "Name": "BakersLifeContinued_WheatBread",
+                    "SpriteIndex": 103,
+                    "DisplayName": "{{i18n:WheatBread_Name}}",
+                    "Description": "{{i18n:WheatBread_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 579,
+                    "Edibility": 32,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "bread_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_ZucchiniBread": {
+                    "Name": "BakersLifeContinued_ZucchiniBread",
+                    "SpriteIndex": 104,
+                    "DisplayName": "{{i18n:ZucchiniBread_Name}}",
+                    "Description": "{{i18n:ZucchiniBread_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1775,
+                    "Edibility": 40,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "bread_item",
+                        "color_brown"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Pie Crust Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_ApplePie": {
+                    "Name": "BakersLifeContinued_ApplePie",
+                    "SpriteIndex": 112,
+                    "DisplayName": "{{i18n:ApplePie_Name}}",
+                    "Description": "{{i18n:ApplePie_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1829,
+                    "Edibility": 95,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "pie_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_BananaCreamPie": {
+                    "Name": "BakersLifeContinued_BananaCreamPie",
+                    "SpriteIndex": 113,
+                    "DisplayName": "{{i18n:BananaCreamPie_Name}}",
+                    "Description": "{{i18n:BananaCreamPie_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 852,
+                    "Edibility": 56,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "pie_item",
+                        "color_yellow"
+                    ]
+                },
+                "BakersLifeContinued_BlackberryPie": {
+                    "Name": "BakersLifeContinued_BlackberryPie",
+                    "SpriteIndex": 114,
+                    "DisplayName": "{{i18n:BlackberryPie_Name}}",
+                    "Description": "{{i18n:BlackberryPie_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1008,
+                    "Edibility": 51,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "pie_item",
+                        "color_purple"
+                    ]
+                },
+                "BakersLifeContinued_BlueberryGalette": {
+                    "Name": "BakersLifeContinued_BlueberryGalette",
+                    "SpriteIndex": 115,
+                    "DisplayName": "{{i18n:BlueberryGalette_Name}}",
+                    "Description": "{{i18n:BlueberryGalette_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1138,
+                    "Edibility": 40,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "pie_item",
+                        "color_blue"
+                    ]
+                },
+                "BakersLifeContinued_CherryGalette": {
+                    "Name": "BakersLifeContinued_CherryGalette",
+                    "SpriteIndex": 116,
+                    "DisplayName": "{{i18n:CherryGalette_Name}}",
+                    "Description": "{{i18n:CherryGalette_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2048,
+                    "Edibility": 42,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "pie_item",
+                        "color_red"
+                    ]
+                },
+                "BakersLifeContinued_FigGalette": {
+                    "Name": "BakersLifeContinued_FigGalette",
+                    "SpriteIndex": 117,
+                    "DisplayName": "{{i18n:FigGalette_Name}}",
+                    "Description": "{{i18n:FigGalette_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1788,
+                    "Edibility": 40,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "pie_item",
+                        "color_purple"
+                    ]
+                },
+                "BakersLifeContinued_KeyLimePie": {
+                    "Name": "BakersLifeContinued_KeyLimePie",
+                    "SpriteIndex": 118,
+                    "DisplayName": "{{i18n:KeyLimePie_Name}}",
+                    "Description": "{{i18n:KeyLimePie_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 930,
+                    "Edibility": 56,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "pie_item",
+                        "color_green"
+                    ]
+                },
+                "BakersLifeContinued_LemonTart": {
+                    "Name": "BakersLifeContinued_LemonTart",
+                    "SpriteIndex": 119,
+                    "DisplayName": "{{i18n:LemonTart_Name}}",
+                    "Description": "{{i18n:LemonTart_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1170,
+                    "Edibility": 42,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "pie_item",
+                        "color_yellow"
+                    ]
+                },
+                "BakersLifeContinued_LunaresPie": {
+                    "Name": "BakersLifeContinued_LunaresPie",
+                    "SpriteIndex": 120,
+                    "DisplayName": "{{i18n:LunaresPie_Name}}",
+                    "Description": "{{i18n:LunaresPie_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2080,
+                    "Edibility": 100,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "pie_item",
+                        "bakers_universal_love",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_MushroomQuiche": {
+                    "Name": "BakersLifeContinued_MushroomQuiche",
+                    "SpriteIndex": 121,
+                    "DisplayName": "{{i18n:MushroomQuiche_Name}}",
+                    "Description": "{{i18n:MushroomQuiche_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2175,
+                    "Edibility": 105,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "quiche_item",
+                        "color_brown",
+                        "bakers_breakfast_item"
+                    ]
+                },
+                "BakersLifeContinued_StrawberryRhubarbPie": {
+                    "Name": "BakersLifeContinued_StrawberryRhubarbPie",
+                    "SpriteIndex": 122,
+                    "DisplayName": "{{i18n:RhubarbPie_Name}}",
+                    "Description": "{{i18n:RhubarbPie_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 2542,
+                    "Edibility": 96,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "pie_item",
+                        "color_red"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Graham Cracker Crust Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_CoffeeCheesecake": {
+                    "Name": "BakersLifeContinued_CoffeeCheesecake",
+                    "SpriteIndex": 126,
+                    "DisplayName": "{{i18n:CoffeeCheesecake_Name}}",
+                    "Description": "{{i18n:CoffeeCheesecake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1463,
+                    "Edibility": 103,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "cheesecake_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_LemonGingerBlueberryCheesecake": {
+                    "Name": "BakersLifeContinued_LemonGingerBlueberryCheesecake",
+                    "SpriteIndex": 127,
+                    "DisplayName": "{{i18n:LemonGingerCheesecake_Name}}",
+                    "Description": "{{i18n:LemonGingerCheesecake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1463,
+                    "Edibility": 128,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "cheesecake_item",
+                        "color_blue"
+                    ]
+                },
+                "BakersLifeContinued_PapayaLimeCheesecake": {
+                    "Name": "BakersLifeContinued_PapayaLimeCheesecake",
+                    "SpriteIndex": 129,
+                    "DisplayName": "{{i18n:PapayaCheesecake_Name}}",
+                    "Description": "{{i18n:PapapyaCheesecake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1437,
+                    "Edibility": 90,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "cheesecake_item",
+                        "color_orange"
+                    ]
+                },
+                "BakersLifeContinued_PeachThymeCheesecake": {
+                    "Name": "BakersLifeContinued_PeachThymeCheesecake",
+                    "SpriteIndex": 126,
+                    "DisplayName": "{{i18n:PeachCheesecake_Name}}",
+                    "Description": "{{i18n:PeachCheesecake_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 1707,
+                    "Edibility": 94,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "ContextTags": [
+                        "bakers_item",
+                        "cheesecake_item",
+                        "color_pink"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Temp Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "BakersLifeContinued_CreamCheese": {
+                    "Name": "BakersLifeContinued_CreamCheese",
+                    "SpriteIndex": 140,
+                    "DisplayName": "{{i18n:CreamCheese_Name}}",
+                    "Description": "{{i18n:CreamCheese_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 100,
+                    "Edibility": 20,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "ContextTags": [
+                        "bakers_item",
+                        "temp_item",
+                        "color_white"
+                    ]
+                
+                },
+                "BakersLifeContinued_GrahamCrackers": {
+                    "Name": "BakersLifeContinued_GrahamCrackers",
+                    "SpriteIndex": 141,
+                    "DisplayName": "{{i18n:GrahamCrackers_Name}}",
+                    "Description": "{{i18n:GrahamCrackers_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 100,
+                    "Edibility": 20,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "ContextTags": [
+                        "bakers_item",
+                        "temp_item",
+                        "color_brown"
+                    ]
+                }, 
+                "BakersLifeContinued_Caramel": {
+                    "Name": "BakersLifeContinued_Caramel",
+                    "SpriteIndex": 142,
+                    "DisplayName": "{{i18n:Caramel_Name}}",
+                    "Description": "{{i18n:Caramel_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 100,
+                    "Edibility": 20,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "ContextTags": [
+                        "bakers_item",
+                        "temp_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_BrownSugar": {
+                    "Name": "BakersLifeContinued_BrownSugar",
+                    "SpriteIndex": 143,
+                    "DisplayName": "{{i18n:BrownSugar_Name}}",
+                    "Description": "{{i18n:BrownSugar_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 100,
+                    "Edibility": 20,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "ContextTags": [
+                        "bakers_item",
+                        "temp_item",
+                        "color_brown"
+                    ]
+                },
+                "BakersLifeContinued_Chocolate": {
+                    "Name": "BakersLifeContinued_Chocolate",
+                    "SpriteIndex": 144,
+                    "DisplayName": "{{i18n:Chocolate_Name}}",
+                    "Description": "{{i18n:Chocolate_Description}}",
+                    "Texture": "Shads42.BakersLifeContinued/Objects",
+                    "Price": 100,
+                    "Edibility": 20,
+                    "Type": "Basic",
+                    "Category": -7,
+                    "ContextTags": [
+                        "bakers_item",
+                        "temp_item",
+                        "color_brown"
+                    ]
+                }
+            }
+        }
+    ]
+}

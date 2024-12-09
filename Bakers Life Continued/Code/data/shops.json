@@ -1,0 +1,107 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Shop Objects - Gus",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Saloon", "Items"],
+            "Entries": {
+                "BakersLifeContinued_CreamCheese": {
+                    "Id": "BakersLifeContinued_CreamCheese",
+                    "ItemId": "(O)BakersLifeContinued_CreamCheese",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Price": 5000,
+                    "IsRecipe": true,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "BakersLifeContinued_GrahamCrackers": {
+                    "Id": "BakersLifeContinued_GrahamCrackers",
+                    "ItemId": "(O)BakersLifeContinued_GrahamCrackers",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": 1,
+                    "Price": 5000,
+                    "IsRecipe": true,
+                    "IgnoreShopPriceModifiers": true
+                }, 
+                "BakersLifeContinued_Caramel": {
+                    "Id": "BakersLifeContinued_Caramel",
+                    "ItemId": "(O)BakersLifeContinued_Caramel",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Price": 5000,
+                    "IsRecipe": true,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "BakersLifeContinued_BrownSugar": {
+                    "Id": "BakersLifeContinued_BrownSugar",
+                    "ItemId": "(O)BakersLifeContinued_BrownSugar",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Price": 5000,
+                    "IsRecipe": true,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "BakersLifeContinued_Chocolate": {
+                    "Id": "BakersLifeContinued_Chocolate",
+                    "ItemId": "(O)BakersLifeContinued_Chocolate",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Price": 5000,
+                    "IsRecipe": true,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "MoveEntries": [
+                {
+                    "Id": "BakersLifeContinued_CreamCheese",
+                    "ToPosition": "Top"
+                },
+                {
+                    "Id": "BakersLifeContinued_GrahamCrackers",
+                    "ToPosition": "Top"
+                },
+                {
+                    "Id":"BakersLifeContinued_Caramel",
+                    "ToPosition": "Top"
+                },
+                {
+                    "Id": "BakersLifeContinued_BrownSugar",
+                    "ToPosition": "Top"
+                },
+                {
+                    "Id": "BakersLifeContinued_Chocolate",
+                    "ToPosition": "Top"
+                }
+            ]
+        },
+        {
+            "LogName": "Load Shop Objects - Pierre",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["SeedShop", "Items"],
+            "Entries":{
+                "BakersLifeContinued_BakersOven": {
+                    "Id": "Shads42.BakersLifeContinued_BakersOven",
+                    "ItemId": "(BC)Shads42.BakersLifeContinued_BakersOven",
+                    "ObjectInternalName": "Shads42.BakersLifeContinued_BakersOven",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true,
+                    "Price": 10000,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "BakersLifeContinued_BakersMixer": {
+                    "Id": "Shads42.BakersLifeContinued_BakersMixer",
+                    "ItemId": "(BC)Shads42.BakersLifeContinued_BakersMixer",
+                    "ObjectInternalName": "Shads42.BakersLifeContinued_BakersMixer",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true,
+                    "Price": 10000,
+                    "IgnoreShopPriceModifiers": true
+                }
+            }
+        }
+    ]
+}

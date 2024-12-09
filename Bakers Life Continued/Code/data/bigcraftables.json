@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        // Load Textures
+        {
+            "LogName": "Load Textures",
+            "Action": "Load",
+            "Target": "Mods/Shads42.BakersLifeContinued/machines",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+
+        // add machines to big craftables
+        {
+            "LogName": "Add machines to Big Craftables",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "Shads42.BakersLifeContinued_BakersMixer": {
+                    "Name": "Baker's Mixer",
+                    "DisplayName": "{{i18n:Mixer_Name}}",
+                    "Descripition": "{{i18n:Mixer_Description}}.",
+                    "Texture": "Mods\\Shads42.BakersLifeContinued\\machines",
+                    "SpriteIndex": 0,
+                    "IsLamp": false
+                },
+                "Shads42.BakersLifeContinued_BakersOven": {
+                    "Name": "Baker's Oven",
+                    "DisplayName": "{{i18n:Oven_Name}}",
+                    "Descripition": "{{i18n:Oven_Description}}",
+                    "Texture": "Mods\\Shads42.BakersLifeContinued\\machines",
+                    "SpriteIndex": 5,
+                    "IsLamp": true
+                }
+            }
+        },
+
+        // add machines to crafting recipes
+        {
+            "LogName": "Add machine recipes to crafting recipes",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Shads42.BakersLifeContinued_BakersMixer": "335 5 262 1 334 5/Home/Shads42.BakersLifeContinued_BakersMixer/true/null",
+                "Shads42.BakersLifeContinued_BakersOven": "335 5 787 3 334 5/Home/Shads42.BakersLifeContinued_BakersOven/true/null"
+            }
+        }
+    ]
+}

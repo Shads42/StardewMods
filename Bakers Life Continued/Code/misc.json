@@ -1,0 +1,77 @@
+//
+{
+    // Loves
+    "Operation": "Append",
+    "Target": ["Fields", "", 1],
+    "Value": "",
+    "Delimiter": " "
+},
+{
+    // Likes
+    "Operation": "Append",
+    "Target": ["Fields", "", 3],
+    "Value": "",
+    "Delimiter": " "
+},
+{
+    // Dislikes
+    "Operation": "Append",
+    "Target": ["Fields", "", 5],
+    "Value": "",
+    "Delimiter": " "
+},
+{
+    // Hates
+    "Operation": "Append",
+    "Target": ["Fields", "", 7],
+    "Value": "",
+    "Delimiter": " "
+},
+{
+    // Neutrals
+    "Operation": "Append",
+    "Target": ["Fields", "", 9],
+    "Value": "BakersLifeContinued_AngelFoodCake BakersLifeContinued_ApplePie BakersLifeContinued_BaklavaCookieBars BakersLifeContinued_BananaBread BakersLifeContinued_BananaCreamPie BakersLifeContinued_BlackberryPie BakersLifeContinued_BlueberryAlmondMousseCake BakersLifeContinued_BlueberryGalette BakersLifeContinued_BourbonCreamCheeseBrownies BakersLifeContinued_Bread BakersLifeContinued_BreadRolls BakersLifeContinued_BundtCake BakersLifeContinued_CarrotCake BakersLifeContinued_CheckerboardCookies BakersLifeContinued_CherryGalette BakersLifeContinued_ChocolateBundtCake BakersLifeContinued_ChocolateCookies BakersLifeContinued_ChocolateSpongeCake BakersLifeContinued_CinnamonRolls BakersLifeContinued_CoffeeCheesecake BakersLifeContinued_CoffeeLiqueurCake BakersLifeContinued_ConfettiCakeRoll BakersLifeContinued_ChocolateChipCookies BakersLifeContinued_DevilsFoodCake BakersLifeContinued_DragonfruitLayeredCake BakersLifeContinued_EarlGreyBlueberryTart BakersLifeContinued_FigGalette BakersLifeContinued_GarlicBread BakersLifeContinued_GaudyWeddingCake BakersLifeContinued_GingersnapCookies BakersLifeContinued_IrishCreamCheesecake BakersLifeContinued_KeyLimePie BakersLifeContinued_LemonCoconutCake BakersLifeContinued_LemonGingerBlueberryCheesecake BakersLifeContinued_LemonTart BakersLifeContinued_LunaresPie BakersLifeContinued_Macarons BakersLifeContinued_MangoTart BakersLifeContinued_MarbleBundtCake BakersLifeContinued_MargaritaTresLechesCake BakersLifeContinued_MatchaRollCake BakersLifeContinued_MushroomQuiche BakersLifeContinued_PapayaLimeCheesecake BakersLifeContinued_PeachThymeCheesecake BakersLifeContinued_PinaColadaPie BakersLifeContinued_PineappleUpsideDownCake BakersLifeContinued_PumpkinBundtCake BakersLifeContinued_RaspberryCakeRoll BakersLifeContinued_RedVelvetCakeRoll BakersLifeContinued_SaltedCaramelBrownies BakersLifeContinued_ShortbreadCookies BakersLifeContinued_SpongeCake BakersLifeContinued_StrawberryCakeRoll BakersLifeContinued_StrawberryRhubarbPie BakersLifeContinued_SugarCookies BakersLifeContinued_SugarFrostedSlime BakersLifeContinued_UltimateWeddingCake BakersLifeContinued_WeddingCake BakersLifeContinued_WheatBread BakersLifeContinued_ZucchiniBread",
+    "Delimiter": " "
+},
+
+
+{
+    "UniqueID": "wildflour.ateliercrops",
+    "MinimumVersion": "1.0.8",
+    "IsRequired": false
+},
+{
+    "LogName": "Load Wildflour Recipes",
+    "Action": "Include",
+    "FromFile": "wildflour-machines/oven.json",
+    "When": {
+        "Enable Wildflour Machine Items": true
+    }
+}
+
+
+
+// example machine entry
+{
+    "Id": "BakersLifeContinued_",
+    "Triggers": [
+        {
+            "Id": "WF",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O)wildflour.ateliercrops_",
+            "RequirementCount": 1
+        },
+        {
+            "Id": "",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O)Cornucopia_",
+            "RequirementCount": 1
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": 
+        }
+    ]
+}
